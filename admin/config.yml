@@ -53,7 +53,6 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "GitHub", name: "github", widget: "string"}
-
   # Sections
   - name: sections
     label: Sections
@@ -74,6 +73,12 @@ collections:
         label: Challenges
         name: challenges
         fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
           - label: Challenge
             name: challenge
             required: true
@@ -93,9 +98,3 @@ collections:
                 hint: "Format: jpg, png"
                 default: ""
                 allow_multiple: false
-          - label: Title
-            name: title
-            required: true
-            widget: string
-            hint: ""
-            default: ""
