@@ -79,8 +79,8 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Challenges
-            name: challenges
+          - label: Challenge
+            name: challenge
             required: true
             widget: list
             hint: ""
