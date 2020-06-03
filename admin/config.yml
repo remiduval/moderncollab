@@ -79,11 +79,13 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Challenge
-            name: challenge
+          - label: Challenges
+            name: challenges
             required: true
-            widget: object
+            widget: list
             hint: ""
+            default: ""
+            allow_add: true
             fields:
               - label: Question
                 name: question
@@ -91,10 +93,10 @@ collections:
                 widget: string
                 hint: ""
                 default: ""
-              - label: Image
-                name: image
+              - label: Illustration
+                name: illustration
                 required: true
                 widget: image
-                hint: "Format: jpg, png"
+                hint: ""
                 default: ""
                 allow_multiple: false
