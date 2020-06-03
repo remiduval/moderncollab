@@ -5,7 +5,7 @@ backend:
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
-media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+media_folder: static/img # Media files will be stored in the repo under images/uploads
 
 collections:
   # Our blog posts
@@ -53,3 +53,49 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "GitHub", name: "github", widget: "string"}
+
+  # Sections
+  - name: sections
+    label: Sections
+    delete: false
+    files:
+      - file: src/sections/1_intro.md
+        label: Intro
+        name: intro
+        fields:
+          - label: Logo
+            name: logo
+            required: true
+            widget: image
+            hint: "Format: svg"
+            default: ""
+            allow_multiple: false
+      - file: src/sections/2_challenges.md
+        label: Challenges
+        name: challenges
+        fields:
+          - label: Challenge
+            name: challenge
+            required: true
+            widget: object
+            hint: ""
+            fields:
+              - label: Question
+                name: question
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Image
+                name: image
+                required: true
+                widget: image
+                hint: "Format: jpg, png"
+                default: ""
+                allow_multiple: false
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
