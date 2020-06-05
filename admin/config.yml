@@ -43,22 +43,12 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-  # Authors
-  - name: "authors"
-    label: "Author"
-    folder: "authors"
-    create: true
-    slug: "{{fields.name}}"
-    fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Email", name: "email", widget: "string"}
-      - {label: "GitHub", name: "github", widget: "string"}
   # Sections
   - name: sections
     label: Sections
     delete: false
     files:
-      - file: src/sections/1_intro.md
+      - file: content/1_intro.md
         label: Intro
         name: intro
         fields:
@@ -69,7 +59,7 @@ collections:
             hint: "Format: svg"
             default: ""
             allow_multiple: false
-      - file: src/sections/2_challenges.md
+      - file: content/2_challenges.md
         label: Challenges
         name: challenges
         fields:
