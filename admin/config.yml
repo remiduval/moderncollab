@@ -46,6 +46,7 @@ collections:
             hint: ""
             default: ""
             allow_add: true
+            label_singular: Challenge
             fields:
               - label: Question
                 name: question
@@ -57,7 +58,7 @@ collections:
                 name: image
                 required: true
                 widget: string
-                hint: ""
+                hint: "Format: jpg, png"
                 default: ""
             field: ""
       - file: content/3_expertise.md
@@ -83,6 +84,7 @@ collections:
             hint: ""
             default: ""
             allow_add: true
+            label_singular: Service
             fields:
               - label: Name
                 name: name
@@ -111,6 +113,7 @@ collections:
                   - bulleted-list
                   - numbered-list
                   - heading-four
+                editorComponents: ""
           - label: Tools
             name: tools
             required: true
@@ -118,6 +121,7 @@ collections:
             hint: ""
             default: ""
             allow_add: true
+            label_singular: Tool
             fields:
               - label: Name
                 name: name
@@ -170,6 +174,7 @@ collections:
               - quote
               - bulleted-list
               - numbered-list
+            editorComponents: ""
           - label: Author
             name: author
             required: true
@@ -276,6 +281,7 @@ collections:
               - link
               - bulleted-list
               - numbered-list
+            editorComponents: ""
   - name: settings
     label: Settings
     delete: false
@@ -325,3 +331,4 @@ collections:
             buttons:
               - bold
               - link
+            editorComponents: ""
