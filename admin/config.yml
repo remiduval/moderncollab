@@ -258,7 +258,7 @@ collections:
     label: Pages
     delete: false
     files:
-      - file: src/content/privacy.md
+      - file: content/privacy.md
         label: Privacy policy
         name: privacy
         fields:
@@ -287,7 +287,7 @@ collections:
     label: Settings
     delete: false
     files:
-      - file: src/content/settings.md
+      - file: content/settings.md
         label: Settings
         name: settings
         fields:
