@@ -291,36 +291,11 @@ collections:
         label: Settings
         name: settings
         fields:
-          - label: Site name
-            name: name
-            required: true
-            widget: string
-            hint: ""
-            default: ""
-          - label: Page title
-            name: title
-            required: true
-            widget: string
-            hint: ""
-            default: ""
-          - label: Site description
-            name: description
-            required: true
-            widget: string
-            hint: For SEO
-            default: ""
           - label: Logo
             name: logo
             required: true
             widget: image
             hint: "Format: svg"
-            default: ""
-            allow_multiple: false
-          - label: SEO image
-            name: image
-            required: true
-            widget: image
-            hint: "Format: png, jpg"
             default: ""
             allow_multiple: false
           - label: Cookies notice
@@ -333,3 +308,32 @@ collections:
               - bold
               - link
             editorComponents: []
+          - label: Google Analytics code
+            name: analytics
+            required: false
+            widget: string
+            hint: ""
+            default: ""
+      - file: content/seo.md
+        label: SEO
+        name: seo
+        fields:
+          - label: Site name
+            name: name
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Site description
+            name: description
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Image
+            name: image
+            required: false
+            widget: image
+            hint: 1200×630px, < 1MB
+            default: ""
+            allow_multiple: false
