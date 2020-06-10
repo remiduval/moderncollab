@@ -113,7 +113,7 @@ collections:
                   - bulleted-list
                   - numbered-list
                   - heading-four
-                editorComponents: false
+                editorComponents: []
           - label: Tools
             name: tools
             required: true
@@ -174,7 +174,7 @@ collections:
               - quote
               - bulleted-list
               - numbered-list
-            editorComponents: false
+            editorComponents: []
           - label: Author
             name: author
             required: true
@@ -281,7 +281,7 @@ collections:
               - link
               - bulleted-list
               - numbered-list
-            editorComponents: false
+            editorComponents: []
   - name: settings
     label: Settings
     delete: false
@@ -331,4 +331,4 @@ collections:
             buttons:
               - bold
               - link
-            editorComponents: false
+            editorComponents: []
