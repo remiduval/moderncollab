@@ -5,47 +5,11 @@ backend:
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
-media_folder: static/img # Media files will be stored in the repo under images/uploads
+media_folder: content/img # Media files will be stored in the repo under images/uploads
 
 collections:
-  # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - label: "Post Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        searchFields: ["name", "github"]
-        valueField: "name"
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Body", name: "body", widget: "markdown" }
-  # Our pages e.g. About
-  - name: "pages"
-    label: "Page"
-    folder: "pages"
-    create: false # Change to true to allow editors to create new pages
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-        name: "eleventyNavigation"
-        widget: "object"
-        fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Body", name: "body", widget: "markdown" }
-  # Sections
-  - name: sections
-    label: Sections
+  - name: homepage
+    label: Homepage
     delete: false
     files:
       - file: content/1_intro.md
@@ -63,14 +27,20 @@ collections:
         label: Challenges
         name: challenges
         fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
           - label: Title
             name: title
             required: true
             widget: string
             hint: ""
             default: ""
-          - label: Challenge
-            name: challenge
+          - label: Challenges
+            name: challenges
             required: true
             widget: list
             hint: ""
@@ -83,10 +53,275 @@ collections:
                 widget: string
                 hint: ""
                 default: ""
-              - label: Illustration
-                name: illustration
+              - label: Image
+                name: image
                 required: true
-                widget: image
+                widget: string
                 hint: ""
                 default: ""
+            field: ""
+      - file: content/3_expertise.md
+        label: Expertise
+        name: expertise
+        fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Services
+            name: services
+            required: true
+            widget: list
+            hint: ""
+            default: ""
+            allow_add: true
+            fields:
+              - label: Name
+                name: name
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Icon
+                name: icon
+                required: true
+                widget: image
+                hint: "Format: svg"
+                default: ""
                 allow_multiple: false
+              - label: Description
+                name: description
+                required: true
+                widget: markdown
+                hint: ""
+                default: ""
+                buttons:
+                  - bold
+                  - italic
+                  - link
+                  - heading-three
+                  - bulleted-list
+                  - numbered-list
+                  - heading-four
+          - label: Tools
+            name: tools
+            required: true
+            widget: list
+            hint: ""
+            default: ""
+            allow_add: true
+            fields:
+              - label: Name
+                name: name
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: URL
+                name: url
+                required: false
+                widget: string
+                hint: ""
+                default: ""
+              - label: Logo
+                name: logo
+                required: true
+                widget: image
+                hint: "Format: svg"
+                default: ""
+                allow_multiple: false
+            field: ""
+      - file: content/4_about.md
+        label: About
+        name: about
+        fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Description
+            name: description
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - italic
+              - link
+              - heading-three
+              - heading-two
+              - quote
+              - bulleted-list
+              - numbered-list
+          - label: Author
+            name: author
+            required: true
+            widget: object
+            hint: ""
+            fields:
+              - label: Full name
+                name: name
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Position
+                name: position
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Photo
+                name: photo
+                required: true
+                widget: image
+                hint: "Format: jpg, square"
+                default: ""
+                allow_multiple: false
+      - file: content/5_contact.md
+        label: Contact
+        name: contact
+        fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Intro
+            name: intro
+            required: false
+            widget: text
+            hint: ""
+            default: ""
+          - label: LinkedIn
+            name: linkedin
+            required: true
+            widget: object
+            hint: ""
+            fields:
+              - label: Logo
+                name: logo
+                required: true
+                widget: image
+                hint: "Format: svg, square"
+                default: ""
+                allow_multiple: false
+              - label: Name
+                name: name
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Category
+                name: category
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: URL
+                name: url
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+  - name: pages
+    label: Pages
+    delete: false
+    files:
+      - file: src/content/privacy.md
+        label: Privacy policy
+        name: privacy
+        fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Description
+            name: description
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - italic
+              - heading-two
+              - heading-three
+              - link
+              - bulleted-list
+              - numbered-list
+  - name: settings
+    label: Settings
+    delete: false
+    files:
+      - file: src/content/settings.md
+        label: Settings
+        name: settings
+        fields:
+          - label: Site name
+            name: name
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Page title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Site description
+            name: description
+            required: true
+            widget: string
+            hint: For SEO
+            default: ""
+          - label: Logo
+            name: logo
+            required: true
+            widget: image
+            hint: "Format: svg"
+            default: ""
+            allow_multiple: false
+          - label: SEO image
+            name: image
+            required: true
+            widget: image
+            hint: "Format: png, jpg"
+            default: ""
+            allow_multiple: false
+          - label: Cookies notice
+            name: cookies
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - link

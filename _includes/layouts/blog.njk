@@ -7,5 +7,16 @@ permalink: /blog/index.html
 
 {{ layoutContent | safe }}
 
-{% set postslist = collections.post %}
-{% include "components/postslist.njk" %}
+{% set sectionslist = collections.section %}
+
+<section>
+	{% for section in sectionslist %}
+
+
+
+                    
+                    {% include "partials/" + (section.data.partial) + ".njk" %}
+
+
+	{% endfor %}
+</section>
