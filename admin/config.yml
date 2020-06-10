@@ -6,6 +6,8 @@ backend:
 # publish_mode: editorial_workflow
 
 media_folder: content/img # Media files will be stored in the repo under images/uploads
+logo_url: https://your-site.com/images/logo.svg
+
 
 collections:
   - name: homepage
@@ -160,8 +162,8 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Description
-            name: description
+          - label: Content
+            name: body
             required: true
             widget: markdown
             hint: ""
@@ -218,7 +220,7 @@ collections:
             hint: ""
             default: ""
           - label: Intro
-            name: intro
+            name: body
             required: false
             widget: text
             hint: ""
@@ -268,8 +270,8 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Description
-            name: description
+          - label: Content
+            name: body
             required: true
             widget: markdown
             hint: ""
