@@ -6,4 +6,5 @@ challenges:
     image: /content/img/jeshoots-com-fzoitus1diq-unsplash.jpg
   - question: Employees needing to be able to work from anywhere?
     image: /content/img/tyler-franta-iusj25iyu1c-unsplash.jpg
+tags: section
 ---

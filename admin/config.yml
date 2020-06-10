@@ -25,6 +25,18 @@ collections:
             hint: "Format: svg"
             default: ""
             allow_multiple: false
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 1_intro
       - file: content/2_challenges.md
         label: Challenges
         name: challenges
@@ -64,6 +76,18 @@ collections:
                 default: ""
                 allow_multiple: false
             field: ""
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 2_challenges
       - file: content/3_expertise.md
         label: Expertise
         name: expertise
@@ -146,6 +170,18 @@ collections:
                 default: ""
                 allow_multiple: false
             field: ""
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 3_services
       - file: content/4_about.md
         label: About
         name: about
@@ -203,6 +239,18 @@ collections:
                 hint: "Format: jpg, square"
                 default: ""
                 allow_multiple: false
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 4_about
       - file: content/5_contact.md
         label: Contact
         name: contact
@@ -256,6 +304,18 @@ collections:
                 widget: string
                 hint: ""
                 default: ""
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 5_contact
   - name: pages
     label: Pages
     delete: false
