@@ -57,9 +57,10 @@ collections:
               - label: Image
                 name: image
                 required: true
-                widget: string
+                widget: image
                 hint: "Format: jpg, png"
                 default: ""
+                allow_multiple: false
             field: ""
       - file: content/3_expertise.md
         label: Expertise
