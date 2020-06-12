@@ -5,7 +5,8 @@ backend:
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
-media_folder: content/img # Media files will be stored in the repo under images/uploads
+media_folder: content/uploads # Media files will be stored in the repo under images/uploads
+public_folder: /assets/uploads
 logo_url: https://your-site.com/images/logo.svg
 
 
@@ -14,7 +15,7 @@ collections:
     label: Homepage
     delete: false
     files:
-      - file: content/1_intro.md
+      - file: content/partials/intro.md
         label: Intro
         name: intro
         fields:
@@ -37,7 +38,7 @@ collections:
             widget: hidden
             hint: ""
             default: 1_intro
-      - file: content/2_challenges.md
+      - file: content/partials/challenges.md
         label: Challenges
         name: challenges
         fields:
@@ -88,7 +89,7 @@ collections:
             widget: hidden
             hint: ""
             default: 2_challenges
-      - file: content/3_expertise.md
+      - file: content/partials/expertise.md
         label: Expertise
         name: expertise
         fields:
@@ -182,7 +183,7 @@ collections:
             widget: hidden
             hint: ""
             default: 3_services
-      - file: content/4_about.md
+      - file: content/partials/about.md
         label: About
         name: about
         fields:
@@ -251,7 +252,7 @@ collections:
             widget: hidden
             hint: ""
             default: 4_about
-      - file: content/5_contact.md
+      - file: content/partials/contact.md
         label: Contact
         name: contact
         fields:
@@ -347,9 +348,10 @@ collections:
             editorComponents: []
   - name: settings
     label: Settings
+    format: json
     delete: false
     files:
-      - file: content/settings.md
+      - file: content/globals/settings.json
         label: Settings
         name: settings
         fields:
@@ -376,7 +378,7 @@ collections:
             widget: string
             hint: ""
             default: ""
-      - file: content/seo.md
+      - file: content/globals/seo.json
         label: SEO
         name: seo
         fields:

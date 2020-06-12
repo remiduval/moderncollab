@@ -5,6 +5,7 @@ author:
   name: Dan Burling
   position: Company Director
   photo: /content/img/jeshoots-com-fzoitus1diq-unsplash.jpg
+date: 2020-01-04
 ---
 ModernCollab.'s mission is to help organisations of all shapes and sizes get the most from their Digital Collaboration tools. These hefty investments are often underutilised, and mostly confuse people even more - outweighing any kind of productivity gain or benefit.  
 

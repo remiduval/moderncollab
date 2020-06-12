@@ -1,4 +1,4 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/home.njk
 permalink: /
 ---

@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
-section: home
 ---
-
+{% set sectionslist = collections.section %}
+{% for section in sectionslist %}
+	{% include "partials/" + ( section.data.page.fileSlug ) + ".njk" %}
+{% endfor %}

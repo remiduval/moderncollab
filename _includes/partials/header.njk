@@ -1,15 +1,46 @@
-<head>
-  <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or renderData.title or metadata.title }}</title>
-  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {% set css %}
-    {% include "assets/css/inline.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
-  {% set js %}
-    {% include "assets/js/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
-</head>
+<header class="fixed top-0 z-10 mt-5 ml-5 text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500 font-display">
+
+	<button class="block focus:outline-none text-sun-800 xl:hidden" @click="menu = !menu">
+		<span x-show="!menu">{{ "/_includes/assets/img/hamburger.svg" | svgContents("w-12") | safe }}</span>
+		<span x-show="menu">{{ "/_includes/assets/img/cross.svg" | svgContents("w-12") | safe }}</span>
+	</button>
+
+	{# Menu mobile #}
+	<div class="bg-white rounded-lg shadow-lg xl:hidden"
+		@click.away="menu = false"
+		x-cloak
+		x-show="menu"
+		x-transition:enter="transition-all ease-in duration-300"
+		x-transition:enter-start="opacity-0 transform translate-y-2"
+		x-transition:enter-end="opacity-100 transform translate-y-0"
+		x-transition:leave="transition ease-in duration-300"
+		x-transition:leave-end="opacity-0 transform translate-y-3"
+	>
+		<nav class="">
+			<ul class="py-4">
+				{% set sectionslist = collections.section %}
+				{% for section in sectionslist %}
+					{% if not loop.first %}
+						<li class=""><a href="#{{ section.data.page.fileSlug }}" class="flex items-center px-8 py-4 text-mono-700 hover:bg-mono-50" @click="menu = false">{{ section.data.label }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+
+	{# Menu desktop #}
+	<div class="justify-between hidden w-full xl:flex wrapper-x">
+		<nav class="">
+			<ul class="flex">
+				{% set sectionslist = collections.section %}
+				{% for section in sectionslist %}
+					{% if not loop.first %}
+						<li class="mr-16"><a href="#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900">{{ section.data.label }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</nav>
+
+		<div class=""><a href="{{ '/' | url }}" class="flex items-center h-20 text-mono-500 hover:text-mono-800">{{ '/content/uploads/logo.svg' | svgContents(" w-48") | safe }}</a></div>
+	</div>
+</header>

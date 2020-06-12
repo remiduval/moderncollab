@@ -1,0 +1,55 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+html {
+	scroll-behavior: smooth;
+}
+
+main {
+	scroll-snap-type: y mandatory;
+	max-height: 100%;
+	overflow-y: scroll;
+}
+
+section {
+	scroll-snap-align: start;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 2s infinite;
+}
+
+.wrapper-x {
+	@apply px-8 mx-auto max-w-screen-xxl;
+}
+@screen sm { .wrapper-x { @apply px-10; } }
+@screen md { .wrapper-x { @apply px-12; } }
+@screen lg { .wrapper-x { @apply px-16; } }
+
+.wrapper-y {
+	@apply py-24;
+}
+@screen md { .wrapper-y { @apply py-32; } }
+@screen lg { .wrapper-y { @apply py-40; } }
+
+h1 {
+	@apply text-2xl text-center font-display;
+}
+@screen md { h1 { @apply text-3xl; } }
+
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;

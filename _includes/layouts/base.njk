@@ -1,22 +1,43 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" class="h-full">
 
-	{% include "partials/header.njk" %}
+	<head>
+		<meta charset="utf-8">
+		<link rel="dns-prefetch" href="https://identity.netlify.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or renderData.title or metadata.title }}</title>
+		<meta name="description" content="">
+		<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		{% set css %}
+			{% include "assets/css/inline.css" %}
+		{% endset %}
+			<link rel="stylesheet" href="assets/css/style.css?v={% version %}"/>
+		{% block head %}{% endblock %}
+		<script src="assets/js/alpine.js?v={% version %}"></script>
+		{% set js %}
+			{% include "assets/js/inline.js" %}
+		{% endset %}
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
 
-	<body>
+	<body	class="flex flex-col h-full text-lg leading-normal text-mono-700 font-body bg-mono-50 lg:text-xl"
+			x-data="{
+				menu: false, 
+				scrolled: false,
+				showModal: false,
+			}"
+    		:class="{ 'overflow-hidden': menu }"
+    		{# @scroll.window="scrolled = (window.pageYOffset > 0) ? true : false" #}
+    		@keydown.escape="showModal = false">
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}"></a>
-			</em>
-			
-		</header>
+		{% include "partials/header.njk" %}
 
-		<main>
+		<main class="min-h-full">
 			{{ layoutContent | safe }}
+			{% include "partials/footer.njk" %}
 		</main>
-
-		{% include "partials/footer.njk" %}
+		
+		
 
 	</body>
 
