@@ -7,7 +7,7 @@ backend:
 
 media_folder: content/uploads # Media files will be stored in the repo under images/uploads
 public_folder: /assets/uploads
-logo_url: https://your-site.com/images/logo.svg
+logo_url: https://vigilant-roentgen-837534.netlify.app/assets/uploads/logo.svg
 
 
 collections:
