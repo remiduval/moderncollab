@@ -12,6 +12,9 @@ services:
       Laying the foundations, understanding what it is you’re about to do and how you’re going to do it.  Strategy and planning is the most important part of any project.​
 
 
+      Laying the foundations, understanding what it is you’re about to do and how you’re going to do it.  Strategy and planning is the most important part of any project.​
+
+
       ### Benefit of getting it right (you’ll know…)​
 
 
