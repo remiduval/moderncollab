@@ -7,7 +7,7 @@ author:
   photo: /content/img/jeshoots-com-fzoitus1diq-unsplash.jpg
 date: 2020-01-04T00:00:00.000Z
 ---
-ModernCollab.'s mission is to help organisations of all shapes and sizes get the most from their Digital Collaboration tools. These hefty investments are often underutilised, and mostly confuse people even more - outweighing any kind of productivity gain or benefit.  
+ModernCollab.'s mission is to help [organisations](http://google.fr) of all **shapes** and *sizes* get the most from their Digital Collaboration tools. These hefty investments are often underutilised, and mostly confuse people even more - outweighing any kind of productivity gain or benefit.  
 
 Founded and run by Dan Burling, ModernCollab. looks to bring a unique skillset that bridges business needs with IT know-how. Far too often, Modern Workplace and Digital Collaboration projects are run with a pure technology head. Do these statements sound familiar?
 
@@ -22,6 +22,7 @@ Technologists tend to configure tools for all the cool bells and whistles. This 
 Business and technology need to understand each other, and work in harmony. Employee collaboration and productivity are the questions, technology is the answer. The 2 languages often get "lost in translation".
 
 ModernCollab. therefore delivers these key principles with everything it does.
+
 1. Technology is the enabler, not the question.
 2. Keep business and people front and centre, don’t forget what we are trying to achieve.
 3. Create stories that people relate to, talk in terms of how they work.
