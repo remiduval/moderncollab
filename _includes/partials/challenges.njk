@@ -1,5 +1,23 @@
-<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full xl:pt-20">
-	<div class="wrapper-x wrapper-y">
-		<h1 class="">{{ section.data.title }}</h1>
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full overflow-y-scroll xl:pt-20">
+	<div class="w-full min-h-full wrapper-x wrapper-y">
+		<h1 class="mb-16 md:mb-20 xl:mb-24">{{ section.data.title }}</h1>
+		<div class="">
+			<ul class="flex m-auto sm:flex-wrap sm:justify-around slider max-w-240 sm:max-w-none" :class="{ 'siema': windowWidth<640 }">
+				{% for challenge in section.data.challenges %}
+					<li class="m-5 overflow-hidden rounded-lg shadow w-240">
+						<div class="relative bg-gray-100 pb-5/3 darken">
+							<img src="{{ challenge.image }}" alt="{{ challenge.question }}" class="absolute object-cover w-full h-full">
+							<span class="absolute bottom-0 z-10 p-5 text-center text-white">{{ challenge.question }}</span>
+						</div>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </section>
+
+<script>
+	{# const mySiema = new Siema();
+	document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+	document.querySelector('.next').addEventListener('click', () => mySiema.next()); #}
+</script>

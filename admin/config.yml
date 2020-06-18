@@ -140,7 +140,6 @@ collections:
                   - heading-three
                   - bulleted-list
                   - numbered-list
-                  - heading-four
                 editorComponents: []
           - label: Tools
             name: tools
@@ -209,7 +208,6 @@ collections:
               - bold
               - italic
               - link
-              - heading-three
               - heading-two
               - quote
               - bulleted-list
@@ -341,7 +339,6 @@ collections:
               - bold
               - italic
               - heading-two
-              - heading-three
               - link
               - bulleted-list
               - numbered-list

@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "eleventy --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
-    "build": "ELEVENTY_PRODUCTION=true eleventy & ELEVENTY_PRODUCTION=true postcss styles/tailwind.css --o _site/style.css"
+    "start": "eleventy --serve & postcss content/css/tailwind.css --o _includes/assets/css/style.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true eleventy & ELEVENTY_PRODUCTION=true postcss content/css/tailwind.css --o _site/assets/css/style.css"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -9,6 +9,8 @@
     "@tailwindcss/custom-forms": "^0.2.1",
     "alpinejs": "^2.3.5",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^11.0.0",
+    "markdown-it-attrs": "^3.0.3",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.4.6"

@@ -33,6 +33,12 @@ module.exports = {
 	  ],
 	},
 	extend: {
+	  spacing: {
+		'4/3': '133.33%',
+		'5/3': '166.67%',
+		'7': '1.75rem',
+		'14': '3.5rem'
+	  },
 	  screens: {
 		'xxl': '1440px'
 	  },
@@ -51,6 +57,7 @@ module.exports = {
 		'-wave': '-14px',
 	  },
 	  width: {
+		'240': '240px',
 		'740': '740px',
 		'900': '900px',
 	  },
@@ -58,11 +65,13 @@ module.exports = {
 		'140': '140px',
 		'768': '768px',
 		'5/6': '83.333333%',
+		'240': '240px',
 	  },
 	  maxHeight: {
 		'0': '0',
 	  },
 	  colors: {
+		denim: '#0E76A8',
 		sun: {
 			50: '#FFFBF0',
 			100: '#FFF6DF',

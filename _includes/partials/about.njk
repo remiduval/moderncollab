@@ -1,5 +1,17 @@
 <section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full xl:pt-20">
-	<div class="wrapper-x wrapper-y">
-        <h1>{{ section.data.title }}</h1>
-    </div>
+	<div class="w-full min-h-full wrapper-x wrapper-y">
+		<h1 class="mb-16 md:mb-20 xl:mb-24">{{ section.data.title }}</h1>
+		<div class="max-w-4xl -mx-5 overflow-hidden border-t-4 rounded-lg shadow sm:mx-auto border-sun-500">
+			<div class="copy copy--extra">
+				{{ section.templateContent | safe }}
+				<div class="flex items-center justify-end mt-10">
+					<div class="text-right">
+						<div class="">{{ section.data.author.name }}</div>
+						<div class="text-sm leading-tight text-mono-500 lg:text-base">{{ section.data.author.position }}</div>
+					</div>
+					<div class="w-20 h-20 ml-6 overflow-hidden rounded-full"><img src="{{ section.data.author.photo }}" alt="{{ section.data.author.name }}"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>

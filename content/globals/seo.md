@@ -1,5 +1,0 @@
----
-name: ModernCollab.
-description: ModernCollab.'s mission is to help organisations of all shapes and
-  sizes get the most from their Digital Collaboration tools.
----

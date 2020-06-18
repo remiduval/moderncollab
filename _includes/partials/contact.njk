@@ -1,19 +1,40 @@
 <section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full xl:pt-20 bg-sun-500">
-	<div class="wrapper-x wrapper-y">
-		<h1 class="">{{ section.data.title }}</h1>
+	<div class="w-full min-h-full wrapper-x wrapper-y">
+		<h1 class="mb-16 text-sun-900 md:mb-20 xl:mb-24">{{ section.data.title }}</h1>
+		<div class="max-w-4xl mx-auto text-sun-900">{{ section.templateContent | safe }}</div>
+		<div class="max-w-4xl mt-5 -mx-5 overflow-hidden rounded-lg shadow sm:mx-auto md:flex">
+			<div class="copy md:flex-1">
+				<form name="contact" method="POST" netlify>
+					<label>
+						<span class="">Email</span>
+						<input type="email" name="email" class="block w-full mt-1 form-input" autocomplete="email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+					</label>
 
-		<form name="contact" method="POST" netlify>
-			<label>
-				<span class="text-gray-700">Name</span>
-				<input type="email" name="email" class="block mt-1 form-input" autocomplete="email" placeholder="Your email address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
-			</label>
+					<label class="block mt-6">
+						<span class="">Message</span>
+						<textarea class="block w-full mt-1 form-textarea" rows="3" name="message" id="message" required></textarea>
+					</label>
 
-			<label class="block">
-				<span class="text-gray-700">Message</span>
-				<textarea class="block mt-1 form-textarea" rows="3" name="message" id="message" placeholder="Write your message here" required></textarea>
-			</label>
-
-			<button type="submit" name="submit">Send Message</button>
-		</form>
+					<button type="submit" name="submit" class="mt-6 button">
+					 	{% set sendIcon = "/_includes/assets/img/send.svg" %}
+						{{ sendIcon | svgContents('text-mono-700 w-4 h-4 mr-4') | safe }}
+						<span>Send</span>
+					</button>
+				</form>
+			</div>
+			<div class="flex flex-col items-center py-10 bg-denim md:justify-center md:px-6">
+				{{ "/_site/assets/img/linked-in.svg" | svgContents("w-40 mb-10") | safe }}
+				<a href="{{ section.data.linkedin.url }}" class="flex items-center p-3 bg-white rounded shadow hover:bg-mono-50">
+ 					<div class="flex items-center justify-end w-10 h-10 rounded-sm bg-sun-500">
+					 	{% set logoUrl = "/_site" + settings.logo %}
+						{{ logoUrl | svgContents('text-mono-500 w-8') | safe }}
+					</div>
+					<div class="ml-3 leading-normal">
+						<div class="text-sm ">{{ section.data.linkedin.name }}</div>
+						<div class="text-xs text-mono-300">{{ section.data.linkedin.category }}</div>
+					</div>
+				</a>
+			</div>
+		</div>
 	</div>
 </section>

@@ -1,7 +1,13 @@
 ---
 layout: layouts/base.njk
-section: page
 ---
-<h1>{{ title }}</h1>
-
-{{ layoutContent | safe }}
+<section class="relative flex min-h-full xl:pt-20">
+	<div class="w-full min-h-full wrapper-x wrapper-y">
+		<h1 class="mb-16 md:mb-20 xl:mb-24">{{ title }}</h1>
+		<div class="max-w-4xl -mx-5 overflow-hidden border-t-4 rounded-lg shadow sm:mx-auto border-sun-500">
+			<div class="copy">
+				{{ layoutContent | safe }}
+			</div>
+		</div>
+	</div>
+</section>

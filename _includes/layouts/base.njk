@@ -11,28 +11,30 @@
 		{% set css %}
 			{% include "assets/css/inline.css" %}
 		{% endset %}
-			<link rel="stylesheet" href="assets/css/style.css?v={% version %}"/>
+			<link rel="stylesheet" href="/assets/css/style.css?v={% version %}"/>
 		{% block head %}{% endblock %}
-		<script src="assets/js/alpine.js?v={% version %}"></script>
+		<script src="/assets/js/alpine.js"></script>
 		{% set js %}
 			{% include "assets/js/inline.js" %}
 		{% endset %}
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 
-	<body	class="flex flex-col h-full text-lg leading-normal text-mono-700 font-body bg-mono-50 lg:text-xl"
+	<body	class="flex flex-col h-full leading-7 text-mono-700 font-body bg-mono-50 lg:text-lg lg:leading-8"
 			x-data="{
 				menu: false, 
 				scrolled: false,
 				showModal: false,
+				windowWidth: window.innerWidth
 			}"
     		:class="{ 'overflow-hidden': menu }"
+			@resize.window="windowWidth = window.innerWidth"
     		{# @scroll.window="scrolled = (window.pageYOffset > 0) ? true : false" #}
     		@keydown.escape="showModal = false">
 
 		{% include "partials/header.njk" %}
 
-		<main class="min-h-full">
+		<main class="h-full">
 			{{ layoutContent | safe }}
 			{% include "partials/footer.njk" %}
 		</main>

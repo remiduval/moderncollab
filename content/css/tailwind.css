@@ -1,0 +1,177 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+[x-cloak] { display: none; }
+
+html {
+	scroll-behavior: smooth;
+}
+
+main {
+	scroll-snap-type: y proximity;
+	/* max-height: 100%;
+	overflow-y: scroll; */
+}
+
+section {
+	scroll-snap-align: start;
+}
+
+.button {
+	@apply flex items-center px-5 py-3 text-base leading-none rounded shadow font-display bg-sun-500 text-sun-900;
+}
+.button:hover {
+	@apply bg-sun-600;
+}
+
+/* Copy */
+.copy {
+	@apply px-5 py-6 bg-white;
+}
+@screen sm { .copy { @apply px-8 py-8; } }
+@screen md { .copy { @apply px-10 py-10; } }
+@screen lg { .copy { @apply px-12; } }
+@screen xl { .copy { @apply px-16 py-12; } }
+
+/* List */
+.copy ul, .copy ol {
+	@apply pl-5 list-outside;
+}
+.copy ul {
+	@apply list-disc;
+}
+.copy ol {
+	@apply list-decimal;
+}
+.copy li:not(:last-child) {
+	@apply mb-1;
+}
+.copy--extra ol li {
+
+}
+.copy--extra ol {
+	@apply pl-0 list-none;
+	counter-reset: my-awesome-counter;
+}
+.copy--extra ol li {
+	@apply relative flex items-start;
+	counter-increment: my-awesome-counter;
+}
+.copy--extra li:not(:last-child) {
+	@apply mb-4;
+}
+.copy--extra ol li::before {
+	@apply flex items-center justify-center w-8 h-8 mr-4 text-white rounded-full bg-sun-500;
+	content: counter(my-awesome-counter);
+	min-width: 2rem;
+}
+
+/* @screen lg { .copy--extra ol li::before { @apply w-10 h-10; } } */
+
+
+/* Link */
+.copy a {
+	@apply underline;
+}
+
+/* Paragraph */
+.copy p:not(:last-child) {
+	@apply mb-2;
+}
+
+/* Headings */
+.copy h2, .copy h3, .copy h4 {
+	@apply mb-3 text-xl font-display;
+}
+.copy h2:not(:first-child), .copy h3:not(:first-child), .copy h4:not(:first-child) {
+	@apply mt-12;
+}
+@screen lg { .copy h2, .copy h3, .copy h4 { @apply text-2xl; } }
+.copy .title {
+	@apply mb-12 text-2xl;
+}
+
+
+/* Blockquote */
+.copy--extra blockquote {
+	@apply relative z-10 py-4 my-5 text-lg italic;
+}
+.copy--extra blockquote p {
+	@apply relative z-10;
+}
+.copy--extra blockquote::before, .copy--extra blockquote::after {
+	@apply w-8 h-8 text-sun-500;
+	content: "";
+	position: absolute;
+	background-image: url("../img/quote.svg");
+}
+.copy--extra blockquote::before {
+	@apply top-0 left-0 -ml-3;
+}
+.copy--extra blockquote::after {
+	@apply bottom-0 right-0 -mr-3 transform rotate-180;
+}
+@screen lg { .copy--extra blockquote::before, .copy--extra blockquote::after { @apply w-10 h-10; } }
+@screen lg {
+	.copy--extra blockquote::before { @apply -ml-8; }
+	.copy--extra blockquote::after { @apply -mr-8; }
+}
+
+
+.darken::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 72%);
+}
+
+@keyframes scroll {
+	0%	{ transform: translateY(0); }
+	30%	{ transform: translateY(100px); }
+}
+
+svg #wheel {
+	animation: scroll ease 2s infinite;
+}
+
+.slider {
+	scroll-snap-type: x mandatory;
+	overflow-x: scroll;
+}
+.slider > * {
+	scroll-snap-align: center;
+	flex: 0 0 100%
+}
+@screen sm {
+	.slider {
+		scroll-snap-type: none;
+		overflow-x: inherit;
+	}
+	.slider > * { flex: none; }
+}
+
+.wrapper-x {
+	@apply px-8 mx-auto max-w-screen-xxl;
+}
+@screen sm { .wrapper-x { @apply px-10; } }
+@screen md { .wrapper-x { @apply px-12; } }
+@screen lg { .wrapper-x { @apply px-16; } }
+
+.wrapper-y {
+	@apply py-24;
+}
+@screen md { .wrapper-y { @apply py-32; } }
+@screen lg { .wrapper-y { @apply py-40; } }
+
+h1 {
+	@apply text-2xl leading-8 text-center font-display;
+}
+@screen md { h1 { @apply text-3xl; } }
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;

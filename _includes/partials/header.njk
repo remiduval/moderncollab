@@ -1,4 +1,4 @@
-<header class="fixed top-0 z-10 mt-5 ml-5 text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500 font-display">
+<header class="fixed top-0 z-20 mt-5 ml-5 xl:text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500 font-display">
 
 	<button class="block focus:outline-none text-sun-800 xl:hidden" @click="menu = !menu">
 		<span x-show="!menu">{{ "/_includes/assets/img/hamburger.svg" | svgContents("w-12") | safe }}</span>
@@ -6,7 +6,7 @@
 	</button>
 
 	{# Menu mobile #}
-	<div class="bg-white rounded-lg shadow-lg xl:hidden"
+	<div class="bg-white rounded-lg shadow-2xl xl:hidden"
 		@click.away="menu = false"
 		x-cloak
 		x-show="menu"
@@ -21,7 +21,7 @@
 				{% set sectionslist = collections.section %}
 				{% for section in sectionslist %}
 					{% if not loop.first %}
-						<li class=""><a href="#{{ section.data.page.fileSlug }}" class="flex items-center px-8 py-4 text-mono-700 hover:bg-mono-50" @click="menu = false">{{ section.data.label }}</a></li>
+						<li class=""><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center px-8 py-4 text-mono-700 hover:bg-mono-50" @click="menu = false">{{ section.data.label }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>
@@ -35,7 +35,7 @@
 				{% set sectionslist = collections.section %}
 				{% for section in sectionslist %}
 					{% if not loop.first %}
-						<li class="mr-16"><a href="#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900">{{ section.data.label }}</a></li>
+						<li class="mr-16"><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900">{{ section.data.label }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>
