@@ -41,6 +41,11 @@
 			</ul>
 		</nav>
 
-		<div class=""><a href="{{ '/' | url }}" class="flex items-center h-20 text-mono-500 hover:text-mono-800">{{ settings.logo | svgContents(" w-48") | safe }}</a></div>
+		<div class="">
+			<a href="{{ '/' | url }}" class="flex items-center h-20 text-mono-500 hover:text-mono-800">
+				{% set logoUrl = "/_site" + settings.logo %}
+				{{ logoUrl | svgContents('text-mono-500 w-48') | safe }}
+			</a>
+		</div>
 	</div>
 </header>
