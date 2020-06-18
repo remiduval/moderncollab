@@ -36,6 +36,18 @@ services:
   - name: Use cases
     icon: /assets/uploads/chemistry.svg
     description: Lorem ipsum
+  - name: Communications
+    icon: /assets/uploads/conversation.svg
+    description: Lorem ipsum
+  - name: Training
+    icon: /assets/uploads/award.svg
+    description: Lorem ipsum
+  - name: Champions network
+    icon: /assets/uploads/network.svg
+    description: Lorem ipsum
+  - name: Go-live and beyond
+    icon: /assets/uploads/cloud.svg
+    description: Lorem ipsum
 tools:
   - name: Office 365
     url: https://www.office.com/
