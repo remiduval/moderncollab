@@ -6,7 +6,7 @@
 				{% for challenge in section.data.challenges %}
 					<li class="m-5 overflow-hidden rounded-lg shadow w-240">
 						<div class="relative bg-gray-100 pb-5/3 darken">
-							<img src="{{ challenge.image }}" alt="{{ challenge.question }}" class="absolute object-cover w-full h-full">
+							<img src="{{ challenge.image }}" alt="{{ challenge.question }}" class="absolute object-cover w-full h-full" loading="lazy">
 							<span class="absolute bottom-0 z-10 p-5 text-center text-white">{{ challenge.question }}</span>
 						</div>
 					</li>

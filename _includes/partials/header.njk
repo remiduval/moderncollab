@@ -1,6 +1,6 @@
 <header class="fixed top-0 z-20 mt-5 ml-5 xl:text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500 font-display">
 
-	<button class="block focus:outline-none text-sun-800 xl:hidden" @click="menu = !menu">
+	<button class="block focus:outline-none text-sun-800 xl:hidden" @click="menu = !menu" aria-label="Menu">>
 		<span x-show="!menu">{{ "/_includes/assets/img/hamburger.svg" | svgContents("w-12") | safe }}</span>
 		<span x-show="menu">{{ "/_includes/assets/img/cross.svg" | svgContents("w-12") | safe }}</span>
 	</button>

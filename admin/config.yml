@@ -73,7 +73,7 @@ collections:
                 name: image
                 required: true
                 widget: image
-                hint: "Format: jpg, png"
+                hint: "Size: 240x400px. Format: jpg, png"
                 default: ""
                 allow_multiple: false
             field: ""
