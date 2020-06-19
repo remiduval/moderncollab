@@ -1,15 +1,9 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-
-# Uncomment below to enable drafts
-# publish_mode: editorial_workflow
-
-media_folder: content/uploads # Media files will be stored in the repo under images/uploads
+  branch: master
+media_folder: content/uploads
 public_folder: /assets/uploads
 logo_url: https://vigilant-roentgen-837534.netlify.app/assets/uploads/logo.svg
-
-
 collections:
   - name: homepage
     label: Homepage
