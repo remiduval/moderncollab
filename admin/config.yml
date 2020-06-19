@@ -1,9 +1,15 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: master # Branch to update (optional; defaults to master)
+
+# Uncomment below to enable drafts
+# publish_mode: editorial_workflow
+
 media_folder: content/uploads
 public_folder: /assets/uploads
 logo_url: https://vigilant-roentgen-837534.netlify.app/assets/uploads/logo.svg
+
+
 collections:
   - name: homepage
     label: Homepage
@@ -70,7 +76,6 @@ collections:
                 hint: "Size: 240x400px. Format: jpg, png"
                 default: ""
                 allow_multiple: false
-            field: ""
           - label: Tags
             name: tags
             required: true
@@ -163,7 +168,6 @@ collections:
                 hint: "Format: svg"
                 default: ""
                 allow_multiple: false
-            field: ""
           - label: Tags
             name: tags
             required: true
