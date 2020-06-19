@@ -7,7 +7,7 @@ backend:
 
 media_folder: content/uploads
 public_folder: /assets/uploads
-logo_url: https://vigilant-roentgen-837534.netlify.app/assets/uploads/logo.svg
+logo_url: https://moderncollab.netlify.app/assets/uploads/logo.svg
 
 
 collections:
