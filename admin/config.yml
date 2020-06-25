@@ -397,7 +397,7 @@ collections:
             default: ""
           - label: Image
             name: image
-            required: false
+            required: true
             widget: image
             hint: 1200×630px, < 1MB
             default: ""
