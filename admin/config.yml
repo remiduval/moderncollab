@@ -14,6 +14,8 @@ collections:
   - name: homepage
     label: Homepage
     delete: false
+    editor:
+      preview: false
     files:
       - file: content/partials/intro.md
         label: Intro
@@ -316,6 +318,8 @@ collections:
   - name: pages
     label: Pages
     delete: false
+    editor:
+      preview: false
     files:
       - file: content/privacy.md
         label: Privacy policy
@@ -345,6 +349,8 @@ collections:
     label: Settings
     format: json
     delete: false
+    editor:
+      preview: false
     files:
       - file: content/globals/settings.json
         label: Settings
@@ -359,7 +365,7 @@ collections:
             allow_multiple: false
           - label: Cookies notice
             name: cookies
-            required: true
+            required: false
             widget: markdown
             hint: ""
             default: ""
