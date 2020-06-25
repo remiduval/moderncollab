@@ -52,6 +52,7 @@ module.exports = {
 	  inset: {
 		'-80': '-80px',
 		'5': '0.25rem',
+		'1/2': '50%',
 	  },
 	  margin: {
 		'-wave': '-14px',

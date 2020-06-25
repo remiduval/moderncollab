@@ -367,8 +367,8 @@ collections:
               - bold
               - link
             editorComponents: []
-          - label: Google Analytics code
-            name: analytics
+          - label: Google Tag Manager code
+            name: gtm
             required: false
             widget: string
             hint: ""

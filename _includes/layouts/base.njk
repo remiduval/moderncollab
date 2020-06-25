@@ -1,5 +1,5 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" class="h-full">
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" class="h-full" x-data="{ currentSection: 'intro' }">
 
 	<head>
 		<title>{{ title or seo.name }}</title>
@@ -31,20 +31,18 @@
 
 		<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		<script src="/assets/js/alpine.js" async></script>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-565ZMXD');</script>
+		<script src="/assets/js/scrollout.min.js"></script>
+		{% if settings.gtm %}
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ settings.gtm }}');</script>
+		{% endif %}
 	</head>
 
 	<body	class="flex flex-col h-full leading-7 text-mono-700 font-body bg-mono-50 lg:text-lg lg:leading-8"
 			x-data="{
-				menu: false, 
-				scrolled: false,
-				showModal: false,
-				windowWidth: window.innerWidth
-			}"
+				menu: false,
+			}" 
     		:class="{ 'overflow-hidden': menu }"
-			@resize.window="windowWidth = window.innerWidth"
-    		{# @scroll.window="scrolled = (window.pageYOffset > 0) ? true : false" #}
-    		@keydown.escape="showModal = false">
+	>
 
 		{% include "partials/header.njk" %}
 
@@ -53,8 +51,23 @@
 			{% include "partials/footer.njk" %}
 		</main>
 		
+		{% if settings.gtm %}
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ settings.gtm }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		{% endif %}
 		
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-565ZMXD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>
+			var currentSection = 'intro';
+			window.onload = ScrollOut({
+				//once: true,
+				onShown: function(element, ctx, scrollingElement) {
+					if (element.tagName == 'SECTION') {
+						currentSection = element.id;
+						console.log(currentSection);
+						//console.log(currentSectionAlpine);
+					}
+				},
+			});
+		</script>
 	</body>
 
 </html>

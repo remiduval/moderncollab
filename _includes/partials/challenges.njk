@@ -1,10 +1,13 @@
-<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full overflow-y-scroll xl:pt-20">
+{% set challenges = section.data.challenges %}
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full xl:pt-20" data-scroll>
 	<div class="w-full min-h-full wrapper-x wrapper-y">
-		<h1 class="mb-16 md:mb-20 xl:mb-24">{{ section.data.title }}</h1>
-		<div class="">
-			<ul class="flex m-auto sm:flex-wrap sm:justify-around slider max-w-240 sm:max-w-none" :class="{ 'siema': windowWidth<640 }">
-				{% for challenge in section.data.challenges %}
-					<li class="m-5 overflow-hidden rounded-lg shadow w-240">
+		<h1 class="mb-16 md:mb-20 xl:mb-24 scroll-flash" data-scroll>{{ section.data.title }}</h1>
+		<div class="relative scroll-up" x-data="{ current: 1 }" data-scroll>
+
+			<!-- Slides -->
+			<ul class="flex justify-center sm:flex-wrap sm:justify-around sm:max-w-none">
+				{% for challenge in challenges %}
+					<li class="m-5 overflow-hidden rounded-lg shadow w-240 sm:block" :class="{ 'hidden': current !== {{ loop.index }} }">
 						<div class="relative bg-gray-100 pb-5/3 darken">
 							<img src="{{ challenge.image }}" alt="{{ challenge.question }}" class="absolute object-cover w-full h-full" loading="lazy">
 							<span class="absolute bottom-0 z-10 p-5 text-center text-white">{{ challenge.question }}</span>
@@ -12,12 +15,35 @@
 					</li>
 				{% endfor %}
 			</ul>
+			
+			<!-- Arrows -->
+			<div class="absolute inset-0 flex items-center justify-between sm:hidden">
+				<button 
+				class="flex items-center justify-center w-12 h-12 -ml-6 transform rotate-90 rounded-full bg-sun-500 text-sun-900 hover:bg-sun-600"
+				x-on:click="current = current === 1 ? {{ challenges.length }} : current - 1">
+				{{ "/_includes/assets/img/chevron-down.svg" | svgContents() | safe }}
+				</button>
+
+				<button 
+				class="flex items-center justify-center w-12 h-12 -mr-6 transform -rotate-90 rounded-full bg-sun-500 text-sun-900 hover:bg-sun-600"
+				x-on:click="current = current === {{ challenges.length }} ? 1 : current + 1">
+				{{ "/_includes/assets/img/chevron-down.svg" | svgContents() | safe }}
+				</button>   
+			</div>
+
+			<!-- Indicators -->
+			<div class="relative flex items-center justify-center mt-4 sm:hidden">
+				{% for challenge in challenges %}
+					<button
+					class="w-4 h-4 mx-2 transition-colors duration-200 ease-out rounded-full hover:bg-mono-200 hover:shadow-lg"
+					:class="{ 
+						'bg-mono-200': current === {{ loop.index }},
+						'bg-mono-100': current !== {{ loop.index }} 
+					}" 
+					x-on:click="current = {{ loop.index }}"
+					></button>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </section>
-
-<script>
-	{# const mySiema = new Siema();
-	document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
-	document.querySelector('.next').addEventListener('click', () => mySiema.next()); #}
-</script>

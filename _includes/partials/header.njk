@@ -35,7 +35,7 @@
 				{% set sectionslist = collections.section %}
 				{% for section in sectionslist %}
 					{% if not loop.first %}
-						<li class="mr-16"><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900">{{ section.data.label }}</a></li>
+						<li class="mr-16"><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900" :class="{ 'text-sun-900': currentSection == '{{ section.data.page.fileSlug }}' }">{{ section.data.label }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>
