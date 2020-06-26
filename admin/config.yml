@@ -278,13 +278,6 @@ collections:
             widget: object
             hint: ""
             fields:
-              - label: Logo
-                name: logo
-                required: true
-                widget: image
-                hint: "Format: svg, square"
-                default: ""
-                allow_multiple: false
               - label: Name
                 name: name
                 required: true
