@@ -53,6 +53,6 @@ tools:
     url: https://www.office.com/
     logo: /assets/uploads/office.svg
   - name: Zoom
-    url: ""
+    url: https://zoom.us/
     logo: /assets/uploads/zoom.svg
 ---
