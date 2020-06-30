@@ -18,7 +18,7 @@
 		>
 			<div class="flex items-start max-w-lg mx-3 mb-3 rounded-lg shadow bg-mono-50">
 				<div class="px-6 py-4 text-sm leading-normal md:text-base">{{ settings.cookies | markdownToHtml | safe }}</div>
-				<button class="mt-1" @click="cookies = '0'">{{ "/_includes/assets/img/cross.svg" | svgContents("w-12") | safe }}</button>
+				<button class="mt-1" @click="cookies = '0'" aria-label="Close cookies notice">{{ "/_includes/assets/img/cross.svg" | svgContents("w-12") | safe }}</button>
 			</div>
 		</div>
 
