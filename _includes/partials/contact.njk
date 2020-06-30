@@ -4,7 +4,7 @@
 		<div class="max-w-4xl mx-auto text-sun-900 scroll-flash" data-scroll>{{ section.templateContent | safe }}</div>
 		<div class="max-w-4xl mt-5 -mx-5 overflow-hidden rounded-lg shadow sm:mx-auto md:flex scroll-up" data-scroll>
 			<div class="copy md:flex-1">
-				<form name="contact" method="POST" netlify-honeypot="special-field" data-netlify-recaptcha="true" netlify>
+				<form name="contact" method="POST" netlify-honeypot="special-field" netlify>
 					<label class="hidden">Special field<input name="special-field" /></label>
 
 					<label>
@@ -16,8 +16,6 @@
 						<span class="">Message</span>
 						<textarea class="block w-full mt-1 form-textarea" rows="3" name="message" id="message" required></textarea>
 					</label>
-
-					<div data-netlify-recaptcha="true" class="mt-6"></div>
 
 					<button type="submit" name="submit" class="mt-6 button">
 					 	{% set sendIcon = "/_includes/assets/img/send.svg" %}
