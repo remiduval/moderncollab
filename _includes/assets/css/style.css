@@ -915,15 +915,15 @@ svg #wheel {
 }
 
 .wrapper-y {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-@media (min-width: 768px) { .wrapper-y { padding-top: 8rem; padding-bottom: 8rem;
+@media (min-width: 768px) { .wrapper-y { padding-top: 5rem; padding-bottom: 5rem;
   }
 }
 
-@media (min-width: 1024px) { .wrapper-y { padding-top: 10rem; padding-bottom: 10rem;
+@media (min-width: 1024px) { .wrapper-y { padding-top: 5rem; padding-bottom: 5rem;
   }
 }
 
