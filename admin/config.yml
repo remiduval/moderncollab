@@ -235,7 +235,7 @@ collections:
                 name: photo
                 required: true
                 widget: image
-                hint: "Format: jpg, square"
+                hint: "Format: jpg, 160x160"
                 default: ""
                 allow_multiple: false
           - label: Tags
@@ -296,6 +296,13 @@ collections:
                 widget: string
                 hint: ""
                 default: ""
+              - label: Image
+                name: image
+                required: true
+                widget: image
+                hint: "Format: jpg, 80x80"
+                default: ""
+                allow_multiple: false
           - label: Tags
             name: tags
             required: true
