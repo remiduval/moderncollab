@@ -27,9 +27,8 @@
 			<div class="flex flex-col items-center py-10 bg-denim md:justify-center md:px-6">
 				{{ "/_site/assets/img/linked-in.svg" | svgContents("w-40 mb-10") | safe }}
 				<a href="{{ section.data.linkedin.url }}" class="flex items-center p-3 bg-white rounded shadow hover:bg-mono-50">
- 					<div class="flex items-center justify-end w-10 h-10 rounded-sm bg-sun-500">
-					 	{% set logoUrl = "/_site" + settings.logo %}
-						{{ logoUrl | svgContents('text-mono-500 w-8') | safe }}
+ 					<div class="w-10 h-10 overflow-hidden rounded-sm">
+						<img src="{{ section.data.linkedin.image }}" alt="{{ section.data.linkedin.name }}" loading="lazy">
 					</div>
 					<div class="ml-3 leading-normal">
 						<div class="text-sm ">{{ section.data.linkedin.name }}</div>
