@@ -182,10 +182,10 @@ svg #wheel {
 @screen lg { .wrapper-x { @apply px-16; } }
 
 .wrapper-y {
-	@apply py-24;
+	@apply py-20;
 }
-@screen md { .wrapper-y { @apply py-32; } }
-@screen lg { .wrapper-y { @apply py-40; } }
+@screen md { .wrapper-y { @apply py-20; } }
+@screen lg { .wrapper-y { @apply py-20; } }
 
 h1 {
 	@apply text-2xl leading-8 text-center font-display;
