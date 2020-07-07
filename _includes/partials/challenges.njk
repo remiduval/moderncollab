@@ -43,6 +43,7 @@
 						'bg-mono-100': current !== {{ loop.index }} 
 					}" 
 					x-on:click="current = {{ loop.index }}"
+					aria-label="Slide {{ loop.index }}"
 					></button>
 				{% endfor %}
 			</div>
