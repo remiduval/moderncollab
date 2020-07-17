@@ -6,7 +6,7 @@
 	</button>
 
 	{# Menu mobile #}
-	<div class="bg-white rounded-lg shadow-2xl xl:hidden font-display"
+	<div class="overflow-hidden bg-white rounded-lg shadow-2xl xl:hidden font-display"
 		@click.away="menu = false"
 		x-cloak
 		x-show="menu"
@@ -26,6 +26,15 @@
 				{% endfor %}
 			</ul>
 		</nav>
+
+		<div class="px-8 py-4 bg-mono-50">
+			<ul class="flex">
+				{% for social in settings.socials %}
+					{% set icon = "/_includes/assets/img/socials/" + social.name + ".svg" %}
+					<li class="{% if not loop.first %} ml-3 {% endif %}"><a href="{{ social.url }}" @click="menu = false">{{ icon | svgContents('text-mono-500 w-10 hover:text-mono-600') | safe }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 
 	{# Menu desktop #}
@@ -52,7 +61,7 @@
 			<ul class="flex">
 				{% for social in settings.socials %}
 					{% set icon = "/_includes/assets/img/socials/" + social.name + ".svg" %}
-					<li class="{% if not loop.first %} ml-3 {% endif %}"><a href="{{ social.url }}">{{ icon | svgContents('text-sun-800 w-10 hover:text-sun-900') | safe }}</a></li>
+					<li class="{% if not loop.first %} ml-3 {% endif %}"><a href="{{ social.url }}">{{ icon | svgContents('text-mono-500 w-10 hover:text-mono-600') | safe }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
