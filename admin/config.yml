@@ -40,6 +40,74 @@ collections:
             widget: hidden
             hint: ""
             default: 1_intro
+      - file: content/partials/about.md
+        label: About
+        name: about
+        fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Content
+            name: body
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - italic
+              - link
+              - heading-two
+              - quote
+              - bulleted-list
+              - numbered-list
+            editorComponents: []
+          - label: Author
+            name: author
+            required: true
+            widget: object
+            hint: ""
+            fields:
+              - label: Full name
+                name: name
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Position
+                name: position
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Photo
+                name: photo
+                required: true
+                widget: image
+                hint: "Format: jpg, 160x160"
+                default: ""
+                allow_multiple: false
+          - label: Tags
+            name: tags
+            required: true
+            widget: hidden
+            hint: ""
+            default: section
+          - label: Partial
+            name: partial
+            required: true
+            widget: hidden
+            hint: ""
+            default: 4_about
       - file: content/partials/challenges.md
         label: Challenges
         name: challenges
@@ -182,74 +250,6 @@ collections:
             widget: hidden
             hint: ""
             default: 3_services
-      - file: content/partials/about.md
-        label: About
-        name: about
-        fields:
-          - label: Menu label
-            name: label
-            required: true
-            widget: string
-            hint: ""
-            default: ""
-          - label: Title
-            name: title
-            required: true
-            widget: string
-            hint: ""
-            default: ""
-          - label: Content
-            name: body
-            required: true
-            widget: markdown
-            hint: ""
-            default: ""
-            buttons:
-              - bold
-              - italic
-              - link
-              - heading-two
-              - quote
-              - bulleted-list
-              - numbered-list
-            editorComponents: []
-          - label: Author
-            name: author
-            required: true
-            widget: object
-            hint: ""
-            fields:
-              - label: Full name
-                name: name
-                required: true
-                widget: string
-                hint: ""
-                default: ""
-              - label: Position
-                name: position
-                required: true
-                widget: string
-                hint: ""
-                default: ""
-              - label: Photo
-                name: photo
-                required: true
-                widget: image
-                hint: "Format: jpg, 160x160"
-                default: ""
-                allow_multiple: false
-          - label: Tags
-            name: tags
-            required: true
-            widget: hidden
-            hint: ""
-            default: section
-          - label: Partial
-            name: partial
-            required: true
-            widget: hidden
-            hint: ""
-            default: 4_about
       - file: content/partials/contact.md
         label: Contact
         name: contact
@@ -363,6 +363,25 @@ collections:
             hint: "Format: svg"
             default: ""
             allow_multiple: false
+          - label: Social networks
+            name: socials
+            required: true
+            widget: list
+            allow_add: true
+            fields:
+              - label: Name
+                name: name
+                required: true
+                widget: select
+                options:
+                  - { label: "LinkedIn", value: "linkedin" }
+                  - { label: "Email", value: "email" }
+                  - { label: "Phone", value: "phone" }
+                multiple: false
+              - label: URL
+                name: url
+                required: true
+                widget: string
           - label: Cookies notice
             name: cookies
             required: false
