@@ -1,5 +1,19 @@
 {
   "logo": "/assets/uploads/logo.svg",
   "cookies": "This website uses cookies to ensure you get the best experience. [What are cookies?](https://cookiesandyou.com/)",
-  "gtm": "GTM-565ZMXD"
+  "gtm": "GTM-565ZMXD",
+  "socials": [
+    {
+      "name": "linkedin",
+      "url": "https://linkedin.com/in/danburling/"
+    },
+    {
+      "name": "email",
+      "url": "mailto:dan@moderncollab.co.uk"
+    },
+    {
+      "name": "phone",
+      "url": "tel:+447950908085"
+    }
+  ]
 }
