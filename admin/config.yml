@@ -250,6 +250,45 @@ collections:
             widget: hidden
             hint: ""
             default: 3_services
+      - file: content/partials/testimonials.md
+        label: Testimonials
+        name: testimonials
+        fields:
+          - label: Menu label
+            name: label
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Testimonials
+            name: testimonials
+            required: true
+            widget: list
+            allow_add: true
+            label_singular: Testimonial
+            fields:
+              - label: Name
+                name: name
+                required: true
+                widget: string
+              - label: Position
+                name: position
+                required: true
+                widget: string
+              - label: Quote
+                name: quote
+                required: true
+                widget: markdown
+                buttons:
+                  - bold
+                  - italic
+                  - link
       - file: content/partials/contact.md
         label: Contact
         name: contact
