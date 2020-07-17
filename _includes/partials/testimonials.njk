@@ -1,0 +1,19 @@
+{% set testimonials = section.data.testimonials %}
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full" data-scroll>
+	<div class="w-full min-h-full wrapper-x wrapper-y">
+		<h1 class="mb-16 md:mb-20 scroll-flash" data-scroll>{{ section.data.title }}</h1>
+		<div class="relative">
+			<ul class="">
+				{% for testimonial in testimonials %}
+					<li class="rounded-lg shadow copy {% if not loop.first %} mt-10 {% endif %} scroll-up" data-scroll>
+                        <div class="mb-6">{{ testimonial.quote }}</div>
+						<div class="text-right">
+                            <div class="">{{ testimonial.name }}</div>
+                            <div class="text-mono-300">{{ testimonial.position }}</div>
+                        </div>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>

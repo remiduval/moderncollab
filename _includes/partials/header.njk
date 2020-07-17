@@ -1,4 +1,4 @@
-<header class="fixed top-0 z-20 mt-5 ml-5 xl:text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500 font-display">
+<header class="fixed top-0 z-20 mt-5 ml-5 xl:text-lg xl:flex xl:m-0 xl:inset-x-0 xl:shadow xl:bg-sun-500">
 
 	<button class="block focus:outline-none text-sun-800 xl:hidden" @click="menu = !menu" aria-label="Menu">
 		<span x-show="!menu">{{ "/_includes/assets/img/hamburger.svg" | svgContents("w-12") | safe }}</span>
@@ -6,7 +6,7 @@
 	</button>
 
 	{# Menu mobile #}
-	<div class="bg-white rounded-lg shadow-2xl xl:hidden"
+	<div class="bg-white rounded-lg shadow-2xl xl:hidden font-display"
 		@click.away="menu = false"
 		x-cloak
 		x-show="menu"
@@ -29,23 +29,32 @@
 	</div>
 
 	{# Menu desktop #}
-	<div class="justify-between hidden w-full xl:flex wrapper-x">
+	<div class="items-center justify-between hidden w-full xl:flex wrapper-x">
+		<div class="">
+			<a href="{{ '/' | url }}" class="flex items-center h-20 text-mono-500 hover:text-mono-800">
+				{% set logoUrl = "/_site" + settings.logo %}
+				{{ logoUrl | svgContents('text-mono-500 w-48') | safe }}
+			</a>
+		</div>
+
 		<nav class="">
 			<ul class="flex">
 				{% set sectionslist = collections.section %}
 				{% for section in sectionslist %}
 					{% if not loop.first %}
-						<li class="mr-16"><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-sun-800 hover:text-sun-900" :class="{ 'text-sun-900': currentSection == '{{ section.data.page.fileSlug }}' }">{{ section.data.label }}</a></li>
+						<li class="{% if not loop.last %} mr-10 {% endif %}"><a href="{{ "/" if page.fileSlug != 'home' }}#{{ section.data.page.fileSlug }}" class="flex items-center h-20 text-base text-sun-800 hover:text-sun-900">{{ section.data.label }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>
 		</nav>
 
 		<div class="">
-			<a href="{{ '/' | url }}" class="flex items-center h-20 text-mono-500 hover:text-mono-800">
-				{% set logoUrl = "/_site" + settings.logo %}
-				{{ logoUrl | svgContents('text-mono-500 w-48') | safe }}
-			</a>
+			<ul class="flex">
+				{% for social in settings.socials %}
+					{% set icon = "/_includes/assets/img/socials/" + social.name + ".svg" %}
+					<li class="{% if not loop.first %} ml-3 {% endif %}"><a href="{{ social.url }}">{{ icon | svgContents('text-sun-800 w-10 hover:text-sun-900') | safe }}</a></li>
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 </header>

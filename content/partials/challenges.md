@@ -10,5 +10,5 @@ challenges:
     image: /assets/uploads/light.jpg
   - question: Time to modernise paper based business processes?
     image: /assets/uploads/paper.jpg
-date: 2020-01-02T00:00:00.000Z
+date: 2020-01-03T00:00:00.000Z
 ---

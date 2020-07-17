@@ -6,7 +6,7 @@ linkedin:
   name: Dan Burling
   category: Information Technology & Services
   url: https://linkedin.com/in/danburling/
-date: 2020-01-05T00:00:00.000Z
+date: 2020-01-06T00:00:00.000Z
 ---
 Got a question? Need some help?
 You’ve got this far, so send a message below or connect via LinkedIn.
