@@ -701,6 +701,10 @@ section {
   list-style-type: decimal;
 }
 
+.copy ul:not(:last-child), .copy ol:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .copy li:not(:last-child) {
   margin-bottom: 0.25rem;
 }
