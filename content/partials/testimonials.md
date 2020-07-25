@@ -9,7 +9,7 @@ testimonials:
       17k users. Thank you Dan. Great job!
     name: Tina Dubb
     position: Bourne Leisure
-    photo: /assets/uploads/dan-burling.jpg
+    photo: /assets/uploads/tina.jpg
   - name: Kathy Taylor
     position: Deloitte
     quote: Dan was our knowledge portal team lead and a key element of our success
@@ -18,11 +18,5 @@ testimonials:
       sharing and knowledge building. He has been proactive, looking to and
       planning for the year ahead to make sure we were continuously improving
       the service. Thank you very much, Dan!
-  - quote: Enthusiasm and a can-do approach is what I first noticed when I started
-      working with Dan. We worked together for over a year and Dans knowledge of
-      Office365 helped tremendously with the deployment of this suite to some
-      17k users. Thank you Dan. Great job!
-    name: Tina Dubb
-    position: Bourne Leisure
-    photo: /assets/uploads/dan-burling.jpg
+    photo: /assets/uploads/kathy.jpg
 ---
