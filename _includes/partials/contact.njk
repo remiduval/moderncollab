@@ -1,9 +1,9 @@
-<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full bg-sun-500" data-scroll>
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full" data-scroll>
 	<div class="w-full min-h-full wrapper-x wrapper-y">
 		<h1 class="mb-16 text-sun-900 md:mb-20">{{ section.data.title }}</h1>
 		<div class="max-w-4xl mx-auto text-sun-900 scroll-flash" data-scroll>{{ section.templateContent | safe }}</div>
 		<div class="max-w-4xl mt-5 -mx-5 overflow-hidden rounded-lg shadow sm:mx-auto md:flex scroll-up" data-scroll>
-			<div class="copy md:flex-1">
+			<div class="copy md:flex-1 bg-mono-50">
 				<form name="contact" method="POST" netlify-honeypot="special-field" netlify>
 					<label class="hidden">Special field<input name="special-field" /></label>
 

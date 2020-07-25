@@ -61,7 +61,23 @@
 			<ul class="flex">
 				{% for social in settings.socials %}
 					{% set icon = "/_includes/assets/img/socials/" + social.name + ".svg" %}
-					<li class="{% if not loop.first %} ml-3 {% endif %}"><a href="{{ social.url }}">{{ icon | svgContents('text-mono-500 w-10 hover:text-mono-600') | safe }}</a></li>
+					<li class="relative {% if not loop.first %} ml-3 {% endif %}" @mouseenter="tooltip = true" @mouseleave="tooltip = false" x-data="{ tooltip: false }">
+						<a href="{{ social.url }}">{{ icon | svgContents('text-mono-500 w-10 hover:text-mono-600') | safe }}</a>
+						{% if social.tooltip %}
+							<span
+								class="absolute top-full right-0 mt-2 hover:block px-2 py-0 rounded bg-mono-500 text-white whitespace-no-wrap text-sm"
+								x-cloak
+								x-show="tooltip"
+								x-transition:enter="transition-all ease-in duration-300"
+								x-transition:enter-start="opacity-0 transform translate-y-2"
+								x-transition:enter-end="opacity-100 transform translate-y-0"
+								x-transition:leave="transition ease-in duration-300"
+								x-transition:leave-end="opacity-0 transform translate-y-3"
+							>
+								{{ social.tooltip }}
+							</span>
+						{% endif %}
+					</li>
 				{% endfor %}
 			</ul>
 		</div>

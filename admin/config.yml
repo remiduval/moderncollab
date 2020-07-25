@@ -143,7 +143,7 @@ collections:
                 name: image
                 required: true
                 widget: image
-                hint: "Size: 240x400px. Format: jpg, png"
+                hint: "Size: 600x338px. Format: jpg, png"
                 default: ""
                 allow_multiple: false
           - label: Tags
@@ -281,6 +281,12 @@ collections:
                 name: position
                 required: true
                 widget: string
+              - label: Photo
+                name: photo
+                required: true
+                widget: image
+                hint: "Format: jpg, 160x160"
+                allow_multiple: false
               - label: Quote
                 name: quote
                 required: true
@@ -420,6 +426,9 @@ collections:
               - label: URL
                 name: url
                 required: true
+                widget: string
+              - label: Tooltip
+                name: tooltip
                 widget: string
           - label: Cookies notice
             name: cookies

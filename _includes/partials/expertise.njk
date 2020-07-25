@@ -1,11 +1,11 @@
-<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full bg-sun-500" data-scroll>
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full" data-scroll>
 	<div class="w-full min-h-full wrapper-x wrapper-y">
 		<h1 class="mb-16 text-sun-900 md:mb-20 scroll-flash" data-scroll>{{ section.data.title }}</h1>
 		<div class="-mx-5 overflow-hidden rounded-lg shadow lg:flex sm:mx-0 scroll-up" x-data="{ tab: 1 }" data-scroll>
-			<div class="bg-mono-50">
+			<div class="bg-mono-100">
 				<ul class="flex lg:block">
 					{% for service in section.data.services %}
-						<li class="flex items-center justify-center flex-1 rounded-t-lg cursor-pointer lg:justify-start lg:rounded-tr-none lg:rounded-l-lg lg:px-6 lg:py-4" :class="{ 'bg-white': tab === {{ loop.index }} }" @click="tab = {{ loop.index }}">
+						<li class="flex items-center justify-center flex-1 rounded-t-lg cursor-pointer lg:justify-start lg:rounded-tr-none lg:rounded-l-lg lg:px-6 lg:py-4" :class="{ 'bg-mono-50': tab === {{ loop.index }} }" @click="tab = {{ loop.index }}">
 							{%set iconUrl = ["/_site", service.icon] | join %}
 							<span class="flex items-center justify-center h-12 lg:rounded-full lg:w-12 lg:h-12 text-mono-400 lg:text-sun-800 lg:bg-sun-500" :class="{ 'text-mono-700': tab === {{ loop.index }} }">{{ iconUrl | svgContents("w-6 lg:w-6 lg: m-auto") | safe }}</span>
 							<span class="hidden ml-4 text-lg lg:block font-display">{{ service.name }}</span>
@@ -13,7 +13,7 @@
 					{% endfor %}
 				</ul>
 			</div>
-			<div class="flex-1 copy">
+			<div class="flex-1 copy bg-mono-50">
 				{% for service in section.data.services %}
 					<div
 						x-cloak

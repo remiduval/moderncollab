@@ -1,16 +1,23 @@
 {% set testimonials = section.data.testimonials %}
-<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full" data-scroll>
+<section id="{{ section.data.page.fileSlug }}" class="relative flex min-h-full bg-mono-50" data-scroll>
 	<div class="w-full min-h-full wrapper-x wrapper-y">
 		<h1 class="mb-16 md:mb-20 scroll-flash" data-scroll>{{ section.data.title }}</h1>
 		<div class="relative">
-			<ul class="">
+			<ul class="grid sm:grid-cols-2 gap-8">
 				{% for testimonial in testimonials %}
-					<li class="rounded-lg shadow copy {% if not loop.first %} mt-10 {% endif %} scroll-up" data-scroll>
-                        <div class="mb-6">{{ testimonial.quote }}</div>
-						<div class="text-right">
-                            <div class="">{{ testimonial.name }}</div>
-                            <div class="text-mono-300">{{ testimonial.position }}</div>
-                        </div>
+					<li class="rounded-lg shadow copy scroll-up flex flex-col justify-between" data-scroll>
+						<div class="">{{ testimonial.quote }}</div>
+
+						<div class="flex items-center justify-end mt-10">
+							<div class="text-right">
+								<div class="">{{ testimonial.name }}</div>
+								<div class="text-sm leading-tight text-mono-500 lg:text-base">{{ testimonial.position }}</div>
+							</div>
+							{% if testimonial.photo %}
+								<div class="w-20 h-20 ml-6 overflow-hidden rounded-full"><img src="{{ testimonial.photo }}" alt="{{ testimonial.name }}" loading="lazy"></div>
+							{% endif %}
+						</div>
+
 					</li>
 				{% endfor %}
 			</ul>
