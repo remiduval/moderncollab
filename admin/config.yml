@@ -408,6 +408,20 @@ collections:
             hint: "Format: svg"
             default: ""
             allow_multiple: false
+          - label: Footer
+            name: footer
+            required: true
+            widget: list
+            allow_add: true
+            fields:
+              - label: Item
+                name: item
+                required: false
+                widget: markdown
+                buttons:
+                  - link
+                editorComponents: []
+                multiple: false
           - label: Social networks
             name: socials
             required: true
