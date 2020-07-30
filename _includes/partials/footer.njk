@@ -1,9 +1,8 @@
 <footer class="flex">
-	<div class="w-full py-5 text-right wrapper-x md:py-6 xl:py-8">
-		<div class="text-sm md:text-base xl:text-lg text-mono-300">
+	<div class="w-full py-5 wrapper-x md:py-6 xl:py-8">
+		<div class="flex flex-wrap justify-end text-sm md:text-base text-mono-300">
 			{% for item in settings.footer %}
-				<span>{{ item.item | markdownToHtml | safe }}</span>
-				{% if not loop.last %}<span class="mx-5">·</span>{% endif %}
+				<div class="ml-5">{{ item.item | markdownToHtml | safe }}</div>
 			{% endfor %}
 		</div>
 	</div>
