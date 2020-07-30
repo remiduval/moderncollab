@@ -5,16 +5,35 @@
   "socials": [
     {
       "name": "linkedin",
-      "url": "https://linkedin.com/in/danburling/"
+      "url": "https://linkedin.com/in/danburling/",
+      "tooltip": "t"
     },
     {
       "name": "email",
-      "url": "#contact"
+      "url": "#contact",
+      "tooltip": "t"
     },
     {
       "name": "phone",
       "url": "tel:+447950908085",
       "tooltip": "07950 908085"
+    }
+  ],
+  "footer": [
+    {
+      "item": "ModernCollab. Limited"
+    },
+    {
+      "item": "Registered in England, UK"
+    },
+    {
+      "item": "Company number 12528261"
+    },
+    {
+      "item": "[Privacy policy](https://moderncollab.co.uk/privacy-policy)"
+    },
+    {
+      "item": "Made by [Remi Duval](http://remiduval.com/)"
     }
   ]
 }
