@@ -413,6 +413,7 @@ collections:
             required: true
             widget: list
             allow_add: true
+            label_singular: Item
             fields:
               - label: Item
                 name: item
@@ -427,6 +428,7 @@ collections:
             required: true
             widget: list
             allow_add: true
+            label_singular: Social network
             fields:
               - label: Name
                 name: name
@@ -444,6 +446,7 @@ collections:
               - label: Tooltip
                 name: tooltip
                 widget: string
+                required: false
           - label: Cookies notice
             name: cookies
             required: false
