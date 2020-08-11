@@ -1,6 +1,6 @@
 {
   "logo": "/assets/uploads/logo.svg",
-  "cookies": "This website uses cookies to ensure you get the best experience. [What are cookies?](https://cookiesandyou.com/)",
+  "cookies": "",
   "gtm": "GTM-565ZMXD",
   "socials": [
     {
@@ -30,7 +30,10 @@
       "item": "Company number 12528261"
     },
     {
-      "item": "[Privacy policy](https://moderncollab.co.uk/privacy-policy)"
+      "item": "[Privacy policy](https://www.websitepolicies.com/policies/view/eoVvA4Xa)"
+    },
+    {
+      "item": "[Cookies policy](https://www.websitepolicies.com/policies/view/dxQibFWm)"
     },
     {
       "item": "Made by [Remi Duval](http://remiduval.com/)"
