@@ -595,6 +595,10 @@ video {
 
 /* purgecss end ignore */
 
+strong {
+  font-weight: 600;
+}
+
 [x-cloak] { display: none;
 }
 
