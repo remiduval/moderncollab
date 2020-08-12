@@ -6,17 +6,17 @@
     {
       "name": "linkedin",
       "url": "https://linkedin.com/in/danburling/",
-      "tooltip": "t"
+      "tooltip": "https://linkedin.com/in/danburling/"
     },
     {
       "name": "email",
       "url": "#contact",
-      "tooltip": "t"
+      "tooltip": "Get in touch"
     },
     {
       "name": "phone",
       "url": "tel:+447950908085",
-      "tooltip": "07950 908085"
+      "tooltip": "+447950 908085"
     }
   ],
   "footer": [
