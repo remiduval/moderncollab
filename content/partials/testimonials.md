@@ -13,6 +13,19 @@ testimonials:
       Nuclear Regulation and a Welsh fire service. Dan is an absolute pleasure
       to work with, listens well, learns fast and has great ideas."*'
     photo: /assets/uploads/kieran.jpg
+  - name: Elina Oost
+    position: Digital Workplace Specialist
+    quote: "*\"Dan is a true do-er... Where there’s a will there’s a way could be
+      Dan’s motto. Dan built deep knowledge of Zoom collaboration software he
+      did not know previously, and in no time he became an expert. He also
+      learned how to build and manage a bot and made it available on the MS App
+      Store (if you’ve never done that, believe me it is an achievement). Dan is
+      also an expert on MS accessibility features. One of Dan’s great quality's
+      is his ability to explain things in a simple and patient manner, and adapt
+      the way he speaks to the person in front of him. Furthermore, Dan is a
+      very nice person to work with, easy to approach, with a positive and calm
+      vibe and impeccable manners.\"*"
+    photo: /assets/uploads/elina.jpg
   - quote: '"Enthusiasm and a can-do approach is what I first noticed when I started
       working with Dan. We worked together for over a year and Dans knowledge of
       Office365 helped tremendously with the deployment of this suite to some
@@ -31,14 +44,4 @@ testimonials:
       commitment and contribution made our team feel as if distance was no
       object. I feel that Dan excelled at leading our EMEA engagements and it
       would certainly be a pleasure to have him back on the team."'
-  - name: Rowena Foong
-    position: Content and Code
-    quote: '"Dan is one of the most reliable and consistent consultants I have
-      worked with. He has an appreciation of all corners of a business problem
-      and works well across a dynamic project team. He has great client-facing
-      skills and can trust him to get high-quality work done in tight restraints
-      - a great relief to project manager life. It was great working with Dan in
-      an IT team and would happily recommend him for any consultancy position in
-      any technology."'
-    photo: /assets/uploads/rowena-foong.jfif
 ---
