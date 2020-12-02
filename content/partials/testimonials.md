@@ -3,6 +3,16 @@ date: 2020-01-05T00:00:00.000Z
 label: Testimonials
 title: Testimonials
 testimonials:
+  - name: Kieran Kelly
+    position: Director of Client Services at Future Worx
+    quote: '*"Dan has been an incredible asset to our Team since joining in March.
+      His deep Microsoft 365 knowledge and practical, can-do approach gave us
+      total confidence that our client and internal projects were in good hands.
+      Dan managed the design and build of our very first MS Teams bot (which has
+      been a huge success) and delighted clients including BCG, Office for
+      Nuclear Regulation and a Welsh fire service. Dan is an absolute pleasure
+      to work with, listens well, learns fast and has great ideas."*'
+    photo: /assets/uploads/kieran.jpg
   - quote: '"Enthusiasm and a can-do approach is what I first noticed when I started
       working with Dan. We worked together for over a year and Dans knowledge of
       Office365 helped tremendously with the deployment of this suite to some
@@ -10,15 +20,6 @@ testimonials:
     name: Tina Dubb
     position: Bourne Leisure
     photo: /assets/uploads/tina.jpg
-  - name: Kathy Taylor
-    position: Deloitte
-    quote: '"Dan was our knowledge portal team lead and a key element of our success
-      over the last year. Not only does he have the SharePoint expertise, he has
-      the passion for building a user experience that facilitates knowledge
-      sharing and knowledge building. He has been proactive, looking to and
-      planning for the year ahead to make sure we were continuously improving
-      the service. Thank you very much, Dan!"'
-    photo: /assets/uploads/kathy.jpg
   - name: Wismar Medina
     position: Microsoft
     photo: /assets/uploads/wismar-medina.jfif
