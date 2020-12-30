@@ -1,7 +1,7 @@
 ---
 title: TMO365
 layout: layouts/page.njk
-permalink: /privacy-policy/
+permalink: /TeachMeOffice365/
 ---
 TMO365 Privacy and Terms of Use
 

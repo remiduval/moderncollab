@@ -366,9 +366,9 @@ collections:
     editor:
       preview: false
     files:
-      - file: content/privacy.md
-        label: Privacy policy
-        name: privacy
+      - file: content/teachmeoffice365.md
+        label: Teach Me Office 365
+        name: teachmeoffice365
         fields:
           - label: Title
             name: title
