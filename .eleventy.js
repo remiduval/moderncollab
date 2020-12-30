@@ -33,10 +33,12 @@ module.exports = function (eleventyConfig) {
   });
 
   let markdownIt = require("markdown-it");
+  var markdownItAttrs = require('markdown-it-attrs');
   let options = {
     breaks: true,
   };
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  let markdownLib = markdownIt(options).use(markdownItAttrs);
+  eleventyConfig.setLibrary("md", markdownLib);
 
   const mdRender = new markdownIt();
   eleventyConfig.addFilter("markdownToHtml", function (rawString) {
