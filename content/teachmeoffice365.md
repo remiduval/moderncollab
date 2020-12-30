@@ -1,10 +1,8 @@
 ---
-title: TMO365
+title: Teach Me Office 365
 layout: layouts/page.njk
 permalink: /TeachMeOffice365/
 ---
-TMO365 Privacy and Terms of Use
-
 ## Help {#help}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elit nunc, imperdiet vitae eros id, semper pretium quam. Donec rhoncus non erat sed ultricies. Praesent lacus leo, imperdiet a lectus sit amet, mollis imperdiet mi. Etiam nisi arcu, vestibulum blandit mauris in, consectetur scelerisque nulla. Mauris ligula urna, pretium at gravida nec, dapibus vitae justo. Etiam suscipit nisl nisl, vitae dapibus tortor luctus at. Fusce tellus urna, pharetra vel faucibus vitae, iaculis at nisl. Mauris semper scelerisque ex, quis gravida metus dapibus sit amet.
