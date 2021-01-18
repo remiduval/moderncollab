@@ -8,12 +8,17 @@ permalink: /TeachMeOffice365/
 ## Purpose
 
 **What does the Teach me Office 365 app do?**
+Teach me Office 365 is a powerful chat bot available to people using Microsoft Teams, to quickly become proficient with Microsoft's productivity and collaboration tools. 
 
-xxx
+The app quickly becomes the one-stop-shop for Office 365 knowledge, saving people time from searching vast amounts of internet pages.  
 
 **Who can use the Teach me Office 365 app?**
 
-xxx
+The Teach me Office 365 app is built for everyone!
+
+For organisations - The app supports your Office 365 adoption activities. It can reduce burden on IT support and Champions by providing a low-cost alternative to human resource. Available on-demand, the bot triages “How do I…?”, “Tell me about…” style questions.
+
+For people - the app is where people of all skill levels can learn more about Office 365 tools. For beginners, simply navigate the  menu to quickly uncover popular features. For experts, type your question for a response.
 
 **Is the Teach me Office 365 app free?**
 
@@ -69,7 +74,7 @@ If you have a suggestion on how we can improve the Teach me Office 365 app, we'd
 
 If you have any questions about anything not related to the Teach me Office 365 app, we're always happy to hear from you.  For general enquiries [get in touch](https://moderncollab.co.uk/#contact).  
 
----
+- - -
 
 # Privacy Statement {#privacy-statement}
 
@@ -77,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elit nunc, imperd
 
 Donec lacinia tortor sed maximus mollis. Sed orci mauris, porta et pharetra sit amet, laoreet vel est. Etiam scelerisque ornare eleifend. Etiam non tristique enim, rutrum vulputate risus. Nam sit amet faucibus sapien, pellentesque luctus velit. Ut quis vestibulum ex. Fusce volutpat erat et turpis aliquet, eget porta turpis imperdiet. Aliquam cursus dolor a mauris sagittis blandit. Maecenas maximus urna at massa posuere scelerisque. Phasellus maximus id ante vitae feugiat. Etiam metus metus, suscipit vitae ante non, vestibulum maximus neque. Sed sit amet libero ut ante euismod imperdiet non quis dolor. Pellentesque risus dui, bibendum id dui id, volutpat interdum metus. Curabitur ultrices sem id diam mollis convallis. Nullam eget tortor in odio aliquam rhoncus et in nulla. Proin facilisis dolor non quam euismod, vel porta elit blandit.
 
----
+- - -
 
 # Terms of Use {#terms-of-use}
 
