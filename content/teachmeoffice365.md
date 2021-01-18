@@ -5,9 +5,9 @@ permalink: /TeachMeOffice365/
 ---
 # Getting started {#getting-started}
 
-### Purpose
+## Purpose
 
-##### What does the Teach me Office 365 app do?
+### What does the Teach me Office 365 app do?
 
 xxx
 
