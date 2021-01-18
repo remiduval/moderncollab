@@ -7,59 +7,59 @@ permalink: /TeachMeOffice365/
 
 ## Purpose
 
-### What does the Teach me Office 365 app do?
+**What does the Teach me Office 365 app do?**
 
 xxx
 
-##### Who can use the Teach me Office 365 app?
+**Who can use the Teach me Office 365 app?**
 
 xxx
 
-##### Is the Teach me Office 365 app free?
+**Is the Teach me Office 365 app free?**
 
 Yes, for the moment the Teach me Office 365 app is completely free of charge.  
 
 We will implement a subscription model during the second half (H2) of 2021.  This will allow us to cover infrastructure, maintenance, and further development costs.  
 
-### Installation
+##Installation
 
-##### Installing or removing the app
-
-xxx
-
-##### Making the app available to employees in my organisation
+**Installing or removing the app**
 
 xxx
 
-### How-to
-
-##### Navigating the menu buttons
+**Making the app available to employees in my organisation**
 
 xxx
 
-##### Asking the questions
+## How-to
+
+**Navigating the menu buttons**
 
 xxx
 
-##### Using the app across devices
+**Asking the questions**
 
 xxx
 
-##### Pinning the app for easy access
+**Using the app across devices**
 
 xxx
 
-### Feedback
-
-##### Reporting a bug
+**Pinning the app for easy access**
 
 xxx
 
-##### Making a suggestion for improvement
+## Feedback
+
+**Reporting a bug**
 
 xxx
 
-##### Contacting ModernCollab. Ltd
+**Making a suggestion for improvement**
+
+xxx
+
+**Contacting ModernCollab. Ltd**
 
 xxx
 
