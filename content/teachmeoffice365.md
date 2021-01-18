@@ -35,7 +35,7 @@ When you want to remove the app, in the Teams left navigation bar, right-click t
 
 You can install the Teach me Office 365 app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded each time.  
 
-An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  \
 
 ## How-to
 
@@ -61,13 +61,9 @@ Once installed, the Teach me Office 365 app is available on any device you are l
 
 If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  
 
-
-
 **Suggesting an improvement**
 
 If you have a suggestion on how we can improve the Teach me Office 365 app, we'd love to know! Feel free to [contact us](<mailto: dan@moderncollab.co.uk>).   
-
-
 
 **Contacting ModernCollab. Ltd**
 
