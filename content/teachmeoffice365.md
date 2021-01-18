@@ -55,7 +55,7 @@ xxx
 
 **Reporting a bug**
 
-If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  
+If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  \
 
 **Suggesting an improvement**
 
