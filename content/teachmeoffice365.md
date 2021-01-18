@@ -21,7 +21,7 @@ Yes, for the moment the Teach me Office 365 app is completely free of charge.
 
 We will implement a subscription model during the second half (H2) of 2021.  This will allow us to cover infrastructure, maintenance, and further development costs.  
 
-##Installation
+## Installation
 
 **Installing or removing the app**
 
