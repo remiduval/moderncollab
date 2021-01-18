@@ -25,25 +25,43 @@ We will implement a subscription model during the second half (H2) of 2021.  Thi
 
 ##### Installing or removing the app
 
+xxx
+
 ##### Making the app available to employees in my organisation
+
+xxx
 
 ### How-to
 
 ##### Navigating the menu buttons
 
-##### Asking the questions\
+xxx
 
-##### Using the app across devices\
+##### Asking the questions
+
+xxx
+
+##### Using the app across devices
+
+xxx
 
 ##### Pinning the app for easy access
+
+xxx
 
 ### Feedback
 
 ##### Reporting a bug
 
+xxx
+
 ##### Making a suggestion for improvement
 
-##### Contacting ModernCollab. Ltd?
+xxx
+
+##### Contacting ModernCollab. Ltd
+
+xxx
 
 # Privacy Statement {#privacy-statement}
 
