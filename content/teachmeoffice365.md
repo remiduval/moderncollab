@@ -41,19 +41,19 @@ An IT admin will need to [manage app setup policies in Microsoft Teams](https://
 
 **Navigating the menu buttons**
 
-When you first use the Teach me Office 365 app, you'll notice some buttons.  You can use these buttons to navigate the app.  
+When you first use the Teach me Office 365 app, you'll notice some buttons.  You can use these buttons to navigate the app.
 
-If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.  \
+If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.
 
 **Asking the questions**
 
 If you have an idea of what it is you want to know about the Office 365 tools, you can ask a question.  Simply write your question in the chat box and the Teach me Office 365 app will come back with an answer.  
 
-The more "natural" your question is the better.  So ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".  \
+The more "natural" your question is the better.  So ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".
 
 **Using the app across devices**
 
-Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  So if you start a conversation on one device, you can easily pick up where you left off on another device.  \
+Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  So if you start a conversation on one device, you can easily pick up where you left off on another device.
 
 ## Feedback
 
@@ -69,11 +69,15 @@ If you have a suggestion on how we can improve the Teach me Office 365 app, we'd
 
 If you have any questions about anything not related to the Teach me Office 365 app, we're always happy to hear from you.  For general enquiries [get in touch](https://moderncollab.co.uk/#contact).  
 
+---
+
 # Privacy Statement {#privacy-statement}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elit nunc, imperdiet vitae eros id, semper pretium quam. Donec rhoncus non erat sed ultricies. Praesent lacus leo, imperdiet a lectus sit amet, mollis imperdiet mi. Etiam nisi arcu, vestibulum blandit mauris in, consectetur scelerisque nulla. Mauris ligula urna, pretium at gravida nec, dapibus vitae justo. Etiam suscipit nisl nisl, vitae dapibus tortor luctus at. Fusce tellus urna, pharetra vel faucibus vitae, iaculis at nisl. Mauris semper scelerisque ex, quis gravida metus dapibus sit amet.
 
 Donec lacinia tortor sed maximus mollis. Sed orci mauris, porta et pharetra sit amet, laoreet vel est. Etiam scelerisque ornare eleifend. Etiam non tristique enim, rutrum vulputate risus. Nam sit amet faucibus sapien, pellentesque luctus velit. Ut quis vestibulum ex. Fusce volutpat erat et turpis aliquet, eget porta turpis imperdiet. Aliquam cursus dolor a mauris sagittis blandit. Maecenas maximus urna at massa posuere scelerisque. Phasellus maximus id ante vitae feugiat. Etiam metus metus, suscipit vitae ante non, vestibulum maximus neque. Sed sit amet libero ut ante euismod imperdiet non quis dolor. Pellentesque risus dui, bibendum id dui id, volutpat interdum metus. Curabitur ultrices sem id diam mollis convallis. Nullam eget tortor in odio aliquam rhoncus et in nulla. Proin facilisis dolor non quam euismod, vel porta elit blandit.
+
+---
 
 # Terms of Use {#terms-of-use}
 
