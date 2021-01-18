@@ -35,7 +35,7 @@ When you want to remove the app, in the Teams left navigation bar, right-click t
 
 You can install the Teach me Office 365 app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded each time.  
 
-An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  \
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
 
 ## How-to
 
@@ -43,17 +43,17 @@ An IT admin will need to [manage app setup policies in Microsoft Teams](https://
 
 When you first use the Teach me Office 365 app, you'll notice some buttons.  You can use these buttons to navigate the app.  
 
-If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.  
+If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.  \
 
 **Asking the questions**
 
 If you have an idea of what it is you want to know about the Office 365 tools, you can ask a question.  Simply write your question in the chat box and the Teach me Office 365 app will come back with an answer.  
 
-The more "natural" your question is the better.  So ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".
+The more "natural" your question is the better.  So ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".  \
 
 **Using the app across devices**
 
-Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  So if you start a conversation on one device, you can easily pick up where you left off on another device. 
+Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  So if you start a conversation on one device, you can easily pick up where you left off on another device.  \
 
 ## Feedback
 
