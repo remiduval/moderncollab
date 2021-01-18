@@ -41,21 +41,25 @@ An IT admin will need to [manage app setup policies in Microsoft Teams](https://
 
 **Navigating the menu buttons**
 
-xxx
+When you first use the Teach me Office 365 app, you'll notice some buttons.  You can use these buttons to navigate the app.  
+
+If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.  
 
 **Asking the questions**
 
-xxx
+If you have an idea of what it is you want to know about the Office 365 tools, you can ask a question.  Simply write your question in the chat box and the Teach me Office 365 app will come back with an answer.  
+
+The more "natural" your question is the better.  So ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".
 
 **Using the app across devices**
 
-xxx
+Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  So if you start a conversation on one device, you can easily pick up where you left off on another device. 
 
 ## Feedback
 
 **Reporting a bug**
 
-If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  \
+If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  
 
 **Suggesting an improvement**
 
