@@ -61,9 +61,13 @@ Once installed, the Teach me Office 365 app is available on any device you are l
 
 If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  
 
+
+
 **Suggesting an improvement**
 
 If you have a suggestion on how we can improve the Teach me Office 365 app, we'd love to know! Feel free to [contact us](<mailto: dan@moderncollab.co.uk>).   
+
+
 
 **Contacting ModernCollab. Ltd**
 
