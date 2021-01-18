@@ -17,19 +17,25 @@ xxx
 
 **Is the Teach me Office 365 app free?**
 
-Yes, for the moment the Teach me Office 365 app is completely free of charge.  
+Yes, for the moment the Teach me Office 365 app is completely free.  
 
-We will implement a subscription model during the second half (H2) of 2021.  This will allow us to cover infrastructure, maintenance, and further development costs.  
+However, we will implement a subscription model during the second half (H2) of 2021.  This will allow us to cover costs for infrastructure, maintenance, and further development.  
 
 ## Installation
 
-**Installing or removing the app**
+**Installing or removing the Teach me Office 365 app as an individual user**
 
-xxx
+You can install the Teach me Office 365 app directly from the Microsoft Teams app store.  In the Teams desktop client, to the bottom-left click the "Apps" icon. 
 
-**Making the app available to employees in my organisation**
+*Note: If you can't see the app, this is because your organisation has restricted store apps.  In this case, you will need to speak to an IT admin to [allow the app](https://docs.microsoft.com/en-us/microsoftteams/manage-apps#allow-and-block-apps).* 
 
-xxx
+When you want to remove the app, in the Teams left navigation bar, right-click the app and click "Uninstall"
+
+**Install and pin the Teach me Office 365 app for all employees**
+
+You can install the Teach me Office 365 app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded each time.  
+
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
 
 ## How-to
 
@@ -45,23 +51,19 @@ xxx
 
 xxx
 
-**Pinning the app for easy access**
-
-xxx
-
 ## Feedback
 
 **Reporting a bug**
 
-xxx
+If you've spotted a bug or something that doesn't quite look right, you can let me know by [contacting us](<mailto: dan@moderncollab.co.uk>).  
 
 **Making a suggestion for improvement**
 
-xxx
+If you have a suggestion on how we can improve the Teach me Office 365 app, we'd love to know! Feel free to [contact us](<mailto: dan@moderncollab.co.uk>).   
 
 **Contacting ModernCollab. Ltd**
 
-xxx
+If you have any questions about anything not related to the Teach me Office 365 app, we're always happy to hear from you.  For general enquiries [get in touch](https://moderncollab.co.uk/#contact).  
 
 # Privacy Statement {#privacy-statement}
 
