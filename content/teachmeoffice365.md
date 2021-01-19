@@ -5,12 +5,12 @@ permalink: /TeachMeOffice365/
 ---
 # Contents
 
-1. \[Getting started](https://moderncollab.co.uk/teachmeoffice365/#getting-started)
+1. [Getting started](https://moderncollab.co.uk/teachmeoffice365/#getting-started)
    * Purpose
    * Installation
    * How-to
    * Feedback
-2. \[Privacy statement](https://moderncollab.co.uk/teachmeoffice365/#privacy-statement)
+2. [Privacy statement](https://moderncollab.co.uk/teachmeoffice365/#privacy-statement)
 
    * What data does the Teach me Office 365 app collect?
    * Why does the Teach me Office 365 app collect data?
@@ -20,7 +20,7 @@ permalink: /TeachMeOffice365/
    * Does data from the Teach me Office 365 app get shared with third parties?
    * What are my data protection rights?
    * Who can I contact about data collected by the Teach me Office 365 app?
-3. \[Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
+3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
 
 # Getting started {#getting-started}
 
