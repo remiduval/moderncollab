@@ -179,7 +179,7 @@ The app collects certain Functional data to fulfil its overall purpose.  This wi
 
 ## Does data from the Teach me Office 365 app get shared with third parties?
 
-No, we do not and will never share any collected, processed, or stored information with a third party other that reasons listed in this privacy statement i.e. Microsoft Azure cloud platform.  
+No, we do not share any collected, processed, or stored information with a third party other that reasons listed in this privacy statement i.e. Microsoft Azure cloud platform.  
 
 ## What are my data protection rights?
 
