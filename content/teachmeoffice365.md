@@ -23,6 +23,17 @@ permalink: /TeachMeOffice365/
    * Who can I contact about data collected by the Teach me Office 365 app?
 3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
 
+   * Links to other resources
+   * Prohibited uses
+   * Intellectual property rights
+   * Limitation of liability
+   * Indemnification
+   * Severability
+   * Dispute resolution
+   * Changes and amendments
+   * Acceptance of these terms
+   * Contacting us
+
 # Getting started {#getting-started}
 
 Last updated 24 January 2021
