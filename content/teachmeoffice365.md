@@ -6,6 +6,7 @@ permalink: /TeachMeOffice365/
 # Contents
 
 1. [Getting started](https://moderncollab.co.uk/teachmeoffice365/#getting-started)
+
    * Purpose
    * Installation
    * How-to
@@ -23,6 +24,8 @@ permalink: /TeachMeOffice365/
 3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
 
 # Getting started {#getting-started}
+
+Last updated 24 January 2021
 
 ## Purpose
 
@@ -97,6 +100,8 @@ If you have any questions about anything not related to the Teach me Office 365 
 - - -
 
 # Privacy Statement {#privacy-statement}
+
+Last updated 24 January 2021
 
 ## What data does the Teach me Office 365 app collect?
 
@@ -183,7 +188,17 @@ No, we do not share any collected, processed, or stored information with a third
 
 ## What are my data protection rights?
 
+**Access to data**
+As a user, you have the right to request a copy of any information stored about you.  
+
+**Verifying and correcting data**
+As a user, you have the right to verify any information stored about you and if necessary request that it is updated.  
+
+**Withdraw consent and deletion of data**
+
 As a user, you have the right to withdraw consent for us to collect, process and store User or Functional data.  If this is your intention, you will need to uninstall the Teach me Office 365 app.  Upon install any stored data will automatically be deleted after a maximum period of 12 months.  If you wish that your data be deleted sooner, please contact us.  
+
+**Lodge a complaint**
 
 You also have the right to lodge a complaint with us at ModernCollab. Ltd or with the appropriate information commissioner's office.  
 
@@ -201,6 +216,32 @@ Please visit [ico.org.uk](https://ico.org.uk/)
 
 # Terms of Use {#terms-of-use}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elit nunc, imperdiet vitae eros id, semper pretium quam. Donec rhoncus non erat sed ultricies. Praesent lacus leo, imperdiet a lectus sit amet, mollis imperdiet mi. Etiam nisi arcu, vestibulum blandit mauris in, consectetur scelerisque nulla. Mauris ligula urna, pretium at gravida nec, dapibus vitae justo. Etiam suscipit nisl nisl, vitae dapibus tortor luctus at. Fusce tellus urna, pharetra vel faucibus vitae, iaculis at nisl. Mauris semper scelerisque ex, quis gravida metus dapibus sit amet.
+Last updated 24 January 2021
 
-Donec lacinia tortor sed maximus mollis. Sed orci mauris, porta et pharetra sit amet, laoreet vel est. Etiam scelerisque ornare eleifend. Etiam non tristique enim, rutrum vulputate risus. Nam sit amet faucibus sapien, pellentesque luctus velit. Ut quis vestibulum ex. Fusce volutpat erat et turpis aliquet, eget porta turpis imperdiet. Aliquam cursus dolor a mauris sagittis blandit. Maecenas maximus urna at massa posuere scelerisque. Phasellus maximus id ante vitae feugiat. Etiam metus metus, suscipit vitae ante non, vestibulum maximus neque. Sed sit amet libero ut ante euismod imperdiet non quis dolor. Pellentesque risus dui, bibendum id dui id, volutpat interdum metus. Curabitur ultrices sem id diam mollis convallis. Nullam eget tortor in odio aliquam rhoncus et in nulla. Proin facilisis dolor non quam euismod, vel porta elit blandit.
+## Information about this agreement
+
+**Introduction and effective date**
+
+**Acceptance of this agreement**
+
+**Reference to other policies**
+
+**Changes to this agreement**
+
+## Rules you agree to abide by
+
+**User restrictions**
+
+**Payments and billing**
+
+**User generated content**
+
+**Termination of account(s)**
+
+## Legal terms
+
+**General disclaimers**
+
+**Exclusion of implied warranties**
+
+**Limitation of liabilities**
