@@ -138,7 +138,7 @@ The app collects the specified Functional data for the following reasons:
 
 * To fulfill the apps main purpose in providing the user with knowledge and answers relating to Microsoft Office 365 
 
-## How does the Teach me Office 365 app collect data?
+## How does the Teach me Office 365 app this collected data?
 
 The Teach me Office 365 app collects User data upon the app being installed within Microsoft Teams, and only upon this one-time event.  The app does not repeatedly collect User data again within the lifetime of the app.  This User data is collected, processed, and stored for a finite period.  
 
@@ -161,13 +161,13 @@ The app does not store Functional data outside of the Microsoft Teams applicatio
 
 Although Functional data is not stored, it is collected and processed.  This enables the app to understand the intention of the user and respond with an appropriate reply.  Functional data is processed within the Microsoft Azure cloud platform.  More specifically Functional data is processed by the Microsoft Language Understanding Intelligent Service (LUIS) service.  
 
-## How will ModernCollab. Ltd use data collected from the Teach me Office 365 app?
+## How will ModernCollab. Ltd use this collected data?
 
 ModernCollab. Ltd will use the collected User data for the following reasons:
 
 **To provide a personalised user experience**
 
-The app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
+The Teach me Office 365 app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
 
 **To understand usage analytics**
 
@@ -182,7 +182,7 @@ ModernCollab. Ltd will use the collected Functional data for the following reaso
 **To fulfill the apps main purpose**
 The app collects certain Functional data to fulfil its overall purpose.  This will primarily be to understand user input so that the app can respond with relevant information, therefore educating the user in a better use of Microsoft Office 365 
 
-## Does data from the Teach me Office 365 app get shared with third parties?
+## Does ModernCollab. Ltd share this collected data?
 
 No, we do not share any collected, processed, or stored information with a third party other that reasons listed in this privacy statement i.e. Microsoft Azure cloud platform.  
 
@@ -202,7 +202,7 @@ As a user, you have the right to withdraw consent for us to collect, process and
 
 You also have the right to lodge a complaint with us at ModernCollab. Ltd or with the appropriate information commissioner's office.  
 
-## Who can I contact about data collected by the Teach me Office 365 app?
+## Who can I contact about data collection?
 
 **Contacting ModernCollab. Ltd**
 Dan Burling (Company Director)
