@@ -1,7 +1,7 @@
 ---
-title: Teach Me Office 365
+title: Work Smart
 layout: layouts/page.njk
-permalink: /TeachMeOffice365/
+permalink: /worksmart/
 ---
 # Contents
 
