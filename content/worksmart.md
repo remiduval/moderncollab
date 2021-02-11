@@ -5,7 +5,7 @@ permalink: /worksmart/
 ---
 # Contents
 
-1. [Getting started](https://moderncollab.co.uk/worksmart/#getting-started)
+1. [Getting started](https://moderncollab.co.uk/worksmart/#getting-started?Target="_blank")
 
    * Purpose
    * Installation
