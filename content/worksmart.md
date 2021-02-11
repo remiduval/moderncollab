@@ -66,7 +66,7 @@ However, we will implement a subscription model during the second half (H2) of 2
 
 You can install the Work Smart app directly from the Microsoft Teams app store.  In the Teams desktop client, to the bottom-left click the "Apps" icon. 
 
-*Note: If you can't see the app, this is because your organisation has restricted store apps.  In this case, you will need to speak to an IT admin to [allow the app](<a href ="https://docs.microsoft.com/en-us/microsoftteams/manage-apps#allow-and-block-apps" target="_blank">example</a>).* 
+*Note: If you can't see the app, this is because your organisation has restricted store apps.  In this case, you will need to speak to an IT admin to <a href ="https://docs.microsoft.com/en-us/microsoftteams/manage-apps#allow-and-block-apps" target="_blank">allow the app</a>. 
 
 When you want to remove the app, in the Teams left navigation bar, right-click the app and click "Uninstall"
 
