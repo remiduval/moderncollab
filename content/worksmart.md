@@ -74,7 +74,7 @@ When you want to remove the app, in the Teams left navigation bar, right-click t
 
 You can install the Work Smart app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded for each person.  
 
-An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies){target="_blank"} to do this.  
 
 ## How-to
 
@@ -98,15 +98,15 @@ Once installed, the Work Smart app is available on any device you are logged int
 
 **Reporting a bug**
 
-If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact) and let us know.  
+If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"} and let us know.  
 
 **Suggesting an improvement**
 
-If you have a suggestion on how we can improve the Work Smart app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact).   
+If you have a suggestion on how we can improve the Work Smart app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.   
 
 **Contacting ModernCollab. Ltd**
 
-If you have any questions about anything not related to the Work Smart app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact).  
+If you have any questions about anything not related to the Work Smart app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.  
 
 - - -
 
@@ -164,7 +164,7 @@ This Functional data is collected, processed but not stored.
 
 ## Where does the Work Smart app store data?
 
-The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center)
+The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center){target="_blank"}
 
 User data stored in this context will reside in the Cosmos DB service for a maximum period 12 months to allow for relevant reporting and usage analysis.  
 
@@ -218,10 +218,10 @@ You also have the right to lodge a complaint with us at ModernCollab. Ltd or wit
 **Contacting ModernCollab. Ltd**
 Dan Burling (Company Director)
 ModernCollab. Ltd
-[Get in touch](https://moderncollab.co.uk/#contact)
+[Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
 
 **Contacting the Information Commissioner's Office**
-Please visit [ico.org.uk](https://ico.org.uk/)
+Please visit [ico.org.uk](https://ico.org.uk/){target="_blank"}
 
 - - -
 
@@ -269,4 +269,4 @@ You acknowledge that you have read this Agreement and agree to all its terms and
 
 ## Contacting us
 
-If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact)
+If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
