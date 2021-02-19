@@ -390,9 +390,9 @@ collections:
               - bulleted-list
               - numbered-list
             editorComponents: []
-      - file: content/worksmart-privacy-statement.md
-        label: Work Smart - Privacy statement
-        name: worksmart-privacy-statement
+      - file: content/worksmart-terms-of-use.md
+        label: Work Smart - Terms of use
+        name: worksmart-terms-of-use
         fields:
           - label: Title
             name: title
@@ -414,9 +414,9 @@ collections:
               - bulleted-list
               - numbered-list
             editorComponents: []
-      - file: content/worksmart-terms-of-use
-        label: Work Smart - Terms of use
-        name: worksmart-terms-of-use
+      - file: content/worksmart-privacy-statement.md
+        label: Work Smart - Privacy statement
+        name: worksmart-privacy-statement
         fields:
           - label: Title
             name: title
