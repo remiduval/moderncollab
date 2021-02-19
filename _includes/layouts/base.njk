@@ -48,12 +48,16 @@
 			}" 
     		:class="{ 'overflow-hidden': menu }"
 	>
-
-		{% include "partials/header.njk" %}
+		{% if page.fileSlug == 'home' %}
+			{% include "partials/header.njk" %}
+		{% endif %}
 
 		<main class="h-full">
 			{{ layoutContent | safe }}
-			{% include "partials/footer.njk" %}
+
+			{% if page.fileSlug == 'home' %}
+				{% include "partials/footer.njk" %}
+			{% endif %}
 		</main>
 		
 		{% if settings.gtm %}

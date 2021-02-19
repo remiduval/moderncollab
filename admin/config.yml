@@ -366,9 +366,57 @@ collections:
     editor:
       preview: false
     files:
-      - file: content/worksmart.md
-        label: Work Smart
-        name: worksmart
+      - file: content/worksmart-getting-started.md
+        label: Work Smart - Getting started
+        name: worksmart-getting-started
+        fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Content
+            name: body
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - italic
+              - heading-two
+              - link
+              - bulleted-list
+              - numbered-list
+            editorComponents: []
+      - file: content/worksmart-privacy-statement.md
+        label: Work Smart - Privacy statement
+        name: worksmart-privacy-statement
+        fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Content
+            name: body
+            required: true
+            widget: markdown
+            hint: ""
+            default: ""
+            buttons:
+              - bold
+              - italic
+              - heading-two
+              - link
+              - bulleted-list
+              - numbered-list
+            editorComponents: []
+      - file: content/worksmart-terms-of-use
+        label: Work Smart - Terms of use
+        name: worksmart-terms-of-use
         fields:
           - label: Title
             name: title

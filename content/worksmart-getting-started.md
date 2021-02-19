@@ -1,27 +1,27 @@
 ---
-title: Work Smart
+title: Work Smart - Getting started
 layout: layouts/page.njk
-permalink: /worksmart/
+permalink: /worksmart-getting-started/
 ---
 # Contents
 
-1. [Getting started](https://moderncollab.co.uk/worksmart/#getting-started)
+1. [Getting started](https://moderncollab.co.uk/teachmeoffice365/#getting-started)
 
    * Purpose
    * Installation
    * How-to
    * Feedback
-2. [Privacy statement](https://moderncollab.co.uk/worksmart/#privacy-statement)
+2. [Privacy statement](https://moderncollab.co.uk/teachmeoffice365/#privacy-statement)
 
-   * What data does the Work Smart app collect?
-   * Why does the Work Smart app collect data?
-   * How does the Work Smart app collect data?
-   * Where does the Work Smart app store data?
-   * How will ModernCollab. Ltd use data collected from the Work Smart app?
-   * Does data from the Work Smart app get shared with third parties?
+   * What data does the Teach me Office 365 app collect?
+   * Why does the Teach me Office 365 app collect data?
+   * How does the Teach me Office 365 app collect data?
+   * Where does the Teach me Office 365 app store data?
+   * How will ModernCollab. Ltd use data collected from the Teach me Office 365 app?
+   * Does data from the Teach me Office 365 app get shared with third parties?
    * What are my data protection rights?
-   * Who can I contact about data collected by the Work Smart app?
-3. [Terms of use](https://moderncollab.co.uk/worksmart/#terms-of-use)
+   * Who can I contact about data collected by the Teach me Office 365 app?
+3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
 
    * Links to other resources
    * Prohibited uses
@@ -40,73 +40,73 @@ Last updated 24 January 2021
 
 ## Purpose
 
-**What does the Work Smart app do?**
+**What does the Teach me Office 365 app do?**
 
-Work Smart is a powerful chat bot available to people using Microsoft Teams, to quickly become proficient with Microsoft's productivity and collaboration tools. 
+Teach me Office 365 is a powerful chat bot available to people using Microsoft Teams, to quickly become proficient with Microsoft's productivity and collaboration tools. 
 
 The app quickly becomes the one-stop-shop for Office 365 knowledge, saving people time from searching vast amounts of internet pages.  
 
-**Who can use the Work Smart app?**
+**Who can use the Teach me Office 365 app?**
 
-The Work Smart app is built for everyone!
+The Teach me Office 365 app is built for everyone!
 
 For organisations - The app supports your Office 365 adoption activities. It can reduce burden on IT support and Champions by providing a low-cost alternative to human resource. Available on-demand, the bot triages “How do I…?”, “Tell me about…” style questions.
 
 For people - the app is where people of all skill levels can learn more about Office 365 tools. For beginners, simply navigate the menu to quickly uncover popular features. For experts, type your question for a response.
 
-**Is the Work Smart app free?**
+**Is the Teach me Office 365 app free?**
 
-Yes, for the moment the Work Smart app is completely free.  
+Yes, for the moment the Teach me Office 365 app is completely free.  
 
 However, we will implement a subscription model during the second half (H2) of 2021.  This will allow us to cover costs for infrastructure, maintenance, and further development.  
 
 ## Installation
 
-**Installing or removing the Work Smart app as an individual user**
+**Installing or removing the Teach me Office 365 app as an individual user**
 
-You can install the Work Smart app directly from the Microsoft Teams app store.  In the Teams desktop client, to the bottom-left click the "Apps" icon. 
+You can install the Teach me Office 365 app directly from the Microsoft Teams app store.  In the Teams desktop client, to the bottom-left click the "Apps" icon. 
 
-*Note: If you can't see the app, this is because your organisation has restricted store apps.  In this case, you will need to speak to an IT admin to [allow the app](https://docs.microsoft.com/en-us/microsoftteams/manage-apps#allow-and-block-apps){target="_blank"}. 
+*Note: If you can't see the app, this is because your organisation has restricted store apps.  In this case, you will need to speak to an IT admin to [allow the app](https://docs.microsoft.com/en-us/microsoftteams/manage-apps#allow-and-block-apps).* 
 
 When you want to remove the app, in the Teams left navigation bar, right-click the app and click "Uninstall"
 
-**Install and pin the Work Smart app for all employees**
+**Install and pin the Teach me Office 365 app for all employees**
 
-You can install the Work Smart app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded for each person.  
+You can install the Teach me Office 365 app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded for each person.  
 
-An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies){target="_blank"} to do this.  
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
 
 ## How-to
 
 **Navigating the menu buttons**
 
-When you first use the Work Smart app, you'll notice some buttons.  You can use these buttons to navigate the app.
+When you first use the Teach me Office 365 app, you'll notice some buttons.  You can use these buttons to navigate the app.
 
 If you are new to Office 365 and its tools, you can use the main menu to navigate through the options available to you.  This way you can explore the Office 365 capabilities and learn something new.
 
 **Asking the questions**
 
-If you have an idea of what it is you want to know about the Office 365 tools, you can ask a question.  Simply write your question in the chat box and the Work Smart app will come back with an answer.  
+If you have an idea of what it is you want to know about the Office 365 tools, you can ask a question.  Simply write your question in the chat box and the Teach me Office 365 app will come back with an answer.  
 
 The more "natural" your question is, the better.  Ask something like "How can I enable live captions in a Teams meeting?", or "Tell me about uploading videos to Stream", or "What does PowerPoint presenter coach do?".
 
 **Using the app across devices**
 
-Once installed, the Work Smart app is available on any device you are logged into Microsoft Teams, 24/7.  If you start a conversation on one device, you can easily pick up where you left off on another device.
+Once installed, the Teach me Office 365 app is available on any device you are logged into Microsoft Teams, 24/7.  If you start a conversation on one device, you can easily pick up where you left off on another device.
 
 ## Feedback
 
 **Reporting a bug**
 
-If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"} and let us know.  
+If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact) and let us know.  
 
 **Suggesting an improvement**
 
-If you have a suggestion on how we can improve the Work Smart app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.   
+If you have a suggestion on how we can improve the Teach me Office 365 app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact).   
 
 **Contacting ModernCollab. Ltd**
 
-If you have any questions about anything not related to the Work Smart app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.  
+If you have any questions about anything not related to the Teach me Office 365 app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact).  
 
 - - -
 
@@ -114,9 +114,9 @@ If you have any questions about anything not related to the Work Smart app, we'r
 
 Last updated 24 January 2021
 
-## What data does the Work Smart app collect?
+## What data does the Teach me Office 365 app collect?
 
-The Work Smart app collects and processes the following data across 2 categories.
+The Teach me Office 365 app collects and processes the following data across 2 categories.
 
 1. User data
 2. Functional data
@@ -137,9 +137,9 @@ This category includes data related to the necessary proper functioning of the a
 
 *Note: You may see references in Microsoft AppSource and the Microsoft Teams App Store about the collection of data other than the items listed under User and Functional data.  This is because the Azure Bot Framework and Microsoft Teams Development Platform allows for the collection of data other than that specified in this Privacy Statement.  Please rest assured that although the app could be capable of collecting more data, we only choose to actively collect, process, and sometimes store the data specified in this Privacy Statement.*
 
-## Why does the Work Smart app collect data?
+## Why does the Teach me Office 365 app collect data?
 
-The Work Smart app collects the specified User data for the following reasons:
+The Teach me Office 365 app collects the specified User data for the following reasons:
 
 * To provide a personalised user experience i.e. Greet the user by name within the app 
 * To understand usage analytics i.e. how many people have installed the app
@@ -149,9 +149,9 @@ The app collects the specified Functional data for the following reasons:
 
 * To fulfill the apps main purpose in providing the user with knowledge and answers relating to Microsoft Office 365 
 
-## How does the Work Smart app this collected data?
+## How does the Teach me Office 365 app this collected data?
 
-The Work Smart app collects User data upon the app being installed within Microsoft Teams, and only upon this one-time event.  The app does not repeatedly collect User data again within the lifetime of the app.  This User data is collected, processed, and stored for a finite period.  
+The Teach me Office 365 app collects User data upon the app being installed within Microsoft Teams, and only upon this one-time event.  The app does not repeatedly collect User data again within the lifetime of the app.  This User data is collected, processed, and stored for a finite period.  
 
 The app collects Functional data every time the user chooses to send the app a message.  Messages are sent by the user to the app in 1 of 2 forms:
 
@@ -162,9 +162,9 @@ This Functional data is collected, processed but not stored.
 
 *Note: Although both User data and Functional data is collected, we do not correlate the 2 types of data together.  We do not therefore know which user has submitted which message.  Therefore, all user messages sent to the app is private and confidential and will not be stored, monitored, or analysed by ModernCollab. Ltd*
 
-## Where does the Work Smart app store data?
+## Where does the Teach me Office 365 app store data?
 
-The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center){target="_blank"}
+The Teach me Office 365 app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center)
 
 User data stored in this context will reside in the Cosmos DB service for a maximum period 12 months to allow for relevant reporting and usage analysis.  
 
@@ -178,7 +178,7 @@ ModernCollab. Ltd will use the collected User data for the following reasons:
 
 **To provide a personalised user experience**
 
-The Work Smart app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
+The Teach me Office 365 app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
 
 **To understand usage analytics**
 
@@ -207,7 +207,7 @@ As a user, you have the right to verify any information stored about you and if 
 
 **Withdraw consent and deletion of data**
 
-As a user, you have the right to withdraw consent for us to collect, process and store User or Functional data.  If this is your intention, you will need to uninstall the Work Smart app.  Upon install any stored data will automatically be deleted after a maximum period of 12 months.  If you wish that your data be deleted sooner, please contact us.  
+As a user, you have the right to withdraw consent for us to collect, process and store User or Functional data.  If this is your intention, you will need to uninstall the Teach me Office 365 app.  Upon install any stored data will automatically be deleted after a maximum period of 12 months.  If you wish that your data be deleted sooner, please contact us.  
 
 **Lodge a complaint**
 
@@ -218,10 +218,10 @@ You also have the right to lodge a complaint with us at ModernCollab. Ltd or wit
 **Contacting ModernCollab. Ltd**
 Dan Burling (Company Director)
 ModernCollab. Ltd
-[Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
+[Get in touch](https://moderncollab.co.uk/#contact)
 
 **Contacting the Information Commissioner's Office**
-Please visit [ico.org.uk](https://ico.org.uk/){target="_blank"}
+Please visit [ico.org.uk](https://ico.org.uk/)
 
 - - -
 
@@ -229,7 +229,7 @@ Please visit [ico.org.uk](https://ico.org.uk/){target="_blank"}
 
 Last updated 24 January 2021
 
-These terms and conditions ("Agreement") set forth the general terms and conditions of your use of the "Work Smart" mobile application ("Mobile Application" or "Service") and any of its related products and services (collectively, "Services"). This Agreement is legally binding between you ("User", "you" or "your") and ModernCollab. Ltd ("Operator", "we", "us" or "our"). By accessing and using the Mobile Application and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you are entering into this Agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the terms "User", "you" or "your" shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and the Operator, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services.
+These terms and conditions ("Agreement") set forth the general terms and conditions of your use of the "Teach me Office 365" mobile application ("Mobile Application" or "Service") and any of its related products and services (collectively, "Services"). This Agreement is legally binding between you ("User", "you" or "your") and ModernCollab. Ltd ("Operator", "we", "us" or "our"). By accessing and using the Mobile Application and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you are entering into this Agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the terms "User", "you" or "your" shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and the Operator, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services.
 
 ## Links to other resources
 
@@ -269,4 +269,4 @@ You acknowledge that you have read this Agreement and agree to all its terms and
 
 ## Contacting us
 
-If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
+If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact)
