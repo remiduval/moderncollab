@@ -4,6 +4,7 @@ layout: layouts/page.njk
 permalink: /worksmart-terms-of-use/
 ---
 
+
 3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
 
    * Links to other resources
