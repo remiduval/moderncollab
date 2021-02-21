@@ -47,7 +47,7 @@ When you want to remove the app, in the Teams left navigation bar, right-click t
 
 You can install the Work Smart app for all employees in your organisation.  This means that the app is available for all and does not need to be individually downloaded for each person.  
 
-An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) to do this.  
+An IT admin will need to [manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies){target="_blank"} to do this.  
 
 ## How-to
 
@@ -71,14 +71,12 @@ Once installed, the Work Smart app is available on any device you are logged int
 
 **Reporting a bug**
 
-If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact) and let us know.  
+If you've spotted a bug or something that doesn't quite look right, [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"} and let us know.  
 
 **Suggesting an improvement**
 
-If you have a suggestion on how we can improve the Work Smart app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact).   
+If you have a suggestion on how we can improve the Work Smart app, we'd love to know! Feel free to [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.   
 
 **Contacting ModernCollab. Ltd**
 
-If you have any questions about anything not related to the Work Smart app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact).  
-
-(https://moderncollab.co.uk/#contact)
+If you have any questions about anything not related to the Work Smart app, we're always happy to hear from you.  For general enquiries [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}.  
