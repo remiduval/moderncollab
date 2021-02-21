@@ -1,13 +1,11 @@
 ---
-title: Work Smart - Terms of use
+title: Work Smart's terms of use
 layout: layouts/page.njk
 permalink: /worksmart-terms-of-use/
 ---
-# Terms of Use
-
 Last updated 24 January 2021
 
-Contents
+## Contents
    * Links to other resources
    * Prohibited uses
    * Intellectual property rights
@@ -59,4 +57,4 @@ You acknowledge that you have read this Agreement and agree to all its terms and
 
 ## Contacting us
 
-If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact)
+If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, please do [Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
