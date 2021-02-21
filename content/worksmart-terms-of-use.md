@@ -3,10 +3,11 @@ title: Work Smart - Terms of use
 layout: layouts/page.njk
 permalink: /worksmart-terms-of-use/
 ---
+# Terms of Use
 
+Last updated 24 January 2021
 
-3. [Terms of use](https://moderncollab.co.uk/teachmeoffice365/#terms-of-use)
-
+Contents
    * Links to other resources
    * Prohibited uses
    * Intellectual property rights
@@ -18,11 +19,7 @@ permalink: /worksmart-terms-of-use/
    * Acceptance of these terms
    * Contacting us
 
-# Terms of Use {#terms-of-use}
-
-Last updated 24 January 2021
-
-These terms and conditions ("Agreement") set forth the general terms and conditions of your use of the "Teach me Office 365" mobile application ("Mobile Application" or "Service") and any of its related products and services (collectively, "Services"). This Agreement is legally binding between you ("User", "you" or "your") and ModernCollab. Ltd ("Operator", "we", "us" or "our"). By accessing and using the Mobile Application and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you are entering into this Agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the terms "User", "you" or "your" shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and the Operator, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services.
+These terms and conditions ("Agreement") set forth the general terms and conditions of your use of the "Work Smart" mobile application ("Mobile Application" or "Service") and any of its related products and services (collectively, "Services"). This Agreement is legally binding between you ("User", "you" or "your") and ModernCollab. Ltd ("Operator", "we", "us" or "our"). By accessing and using the Mobile Application and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you are entering into this Agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the terms "User", "you" or "your" shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and the Operator, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services.
 
 ## Links to other resources
 
