@@ -5,7 +5,7 @@ permalink: /worksmart-getting-started/
 ---
 Last updated 21 February 2021
 
-# Contents
+## Contents
    * Purpose
    * Installation
    * How-to
