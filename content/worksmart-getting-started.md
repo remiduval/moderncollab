@@ -1,5 +1,5 @@
 ---
-title: Work Smart - Getting started
+title: Work Smart
 layout: layouts/page.njk
 permalink: /worksmart-getting-started/
 ---
