@@ -1,13 +1,11 @@
 ---
-title: Work Smart - Privacy statement
+title: Your privacy and Work Smart
 layout: layouts/page.njk
 permalink: /worksmart-privacy-statement/
 ---
-# Privacy Statement
-
 Last updated 24 January 2021
 
-Contents
+## Contents
    * What data does the Work Smart app collect?
    * Why does the Work Smart app collect data?
    * How does the Work Smart app collect data?
@@ -67,7 +65,7 @@ This Functional data is collected, processed but not stored.
 
 ## Where does the Work Smart app store data?
 
-The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center)
+The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center){target="_blank"}
 
 User data stored in this context will reside in the Cosmos DB service for a maximum period 12 months to allow for relevant reporting and usage analysis.  
 
@@ -121,7 +119,7 @@ You also have the right to lodge a complaint with us at ModernCollab. Ltd or wit
 **Contacting ModernCollab. Ltd**
 Dan Burling (Company Director)
 ModernCollab. Ltd
-[Get in touch](https://moderncollab.co.uk/#contact)
+[Get in touch](https://moderncollab.co.uk/#contact){target="_blank"}
 
 **Contacting the Information Commissioner's Office**
-Please visit [ico.org.uk](https://ico.org.uk/)
+Please visit [ico.org.uk](https://ico.org.uk/){target="_blank"}
