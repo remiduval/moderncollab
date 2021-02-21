@@ -3,28 +3,23 @@ title: Work Smart - Privacy statement
 layout: layouts/page.njk
 permalink: /worksmart-privacy-statement/
 ---
-# Contents
-
-
-2. [Privacy statement](https://moderncollab.co.uk/teachmeoffice365/#privacy-statement)
-
-   * What data does the Teach me Office 365 app collect?
-   * Why does the Teach me Office 365 app collect data?
-   * How does the Teach me Office 365 app collect data?
-   * Where does the Teach me Office 365 app store data?
-   * How will ModernCollab. Ltd use data collected from the Teach me Office 365 app?
-   * Does data from the Teach me Office 365 app get shared with third parties?
-   * What are my data protection rights?
-   * Who can I contact about data collected by the Teach me Office 365 app?
-
-
-# Privacy Statement {#privacy-statement}
+# Privacy Statement
 
 Last updated 24 January 2021
 
-## What data does the Teach me Office 365 app collect?
+Contents
+   * What data does the Work Smart app collect?
+   * Why does the Work Smart app collect data?
+   * How does the Work Smart app collect data?
+   * Where does the Work Smart app store data?
+   * How will ModernCollab. Ltd use data collected from the Work Smart app?
+   * Does data from the Work Smart app get shared with third parties?
+   * What are my data protection rights?
+   * Who can I contact about data collected by the Work Smart app?
 
-The Teach me Office 365 app collects and processes the following data across 2 categories.
+## What data does the Work Smart app collect?
+
+The Work Smart app collects and processes the following data across 2 categories.
 
 1. User data
 2. Functional data
@@ -45,9 +40,9 @@ This category includes data related to the necessary proper functioning of the a
 
 *Note: You may see references in Microsoft AppSource and the Microsoft Teams App Store about the collection of data other than the items listed under User and Functional data.  This is because the Azure Bot Framework and Microsoft Teams Development Platform allows for the collection of data other than that specified in this Privacy Statement.  Please rest assured that although the app could be capable of collecting more data, we only choose to actively collect, process, and sometimes store the data specified in this Privacy Statement.*
 
-## Why does the Teach me Office 365 app collect data?
+## Why does the Work Smart app collect data?
 
-The Teach me Office 365 app collects the specified User data for the following reasons:
+The Work Smart app collects the specified User data for the following reasons:
 
 * To provide a personalised user experience i.e. Greet the user by name within the app 
 * To understand usage analytics i.e. how many people have installed the app
@@ -57,9 +52,9 @@ The app collects the specified Functional data for the following reasons:
 
 * To fulfill the apps main purpose in providing the user with knowledge and answers relating to Microsoft Office 365 
 
-## How does the Teach me Office 365 app this collected data?
+## How does the Work Smart app this collected data?
 
-The Teach me Office 365 app collects User data upon the app being installed within Microsoft Teams, and only upon this one-time event.  The app does not repeatedly collect User data again within the lifetime of the app.  This User data is collected, processed, and stored for a finite period.  
+The Work Smart app collects User data upon the app being installed within Microsoft Teams, and only upon this one-time event.  The app does not repeatedly collect User data again within the lifetime of the app.  This User data is collected, processed, and stored for a finite period.  
 
 The app collects Functional data every time the user chooses to send the app a message.  Messages are sent by the user to the app in 1 of 2 forms:
 
@@ -70,9 +65,9 @@ This Functional data is collected, processed but not stored.
 
 *Note: Although both User data and Functional data is collected, we do not correlate the 2 types of data together.  We do not therefore know which user has submitted which message.  Therefore, all user messages sent to the app is private and confidential and will not be stored, monitored, or analysed by ModernCollab. Ltd*
 
-## Where does the Teach me Office 365 app store data?
+## Where does the Work Smart app store data?
 
-The Teach me Office 365 app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center)
+The Work Smart app stores User data within the Microsoft Azure cloud platform.  More specifically, User data is stored in a Cosmos DB service located in the Western Europe region.  User data residing in this service is therefore compliant with all Microsoft privacy terms and security practices as stated in the [Microsoft Trust Center](https://www.microsoft.com/en-gb/trust-center)
 
 User data stored in this context will reside in the Cosmos DB service for a maximum period 12 months to allow for relevant reporting and usage analysis.  
 
@@ -86,7 +81,7 @@ ModernCollab. Ltd will use the collected User data for the following reasons:
 
 **To provide a personalised user experience**
 
-The Teach me Office 365 app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
+The Work Smart app collects certain user information to personalise the users experience, whilst using the app.  This includes greeting the user by their first name. 
 
 **To understand usage analytics**
 
@@ -115,7 +110,7 @@ As a user, you have the right to verify any information stored about you and if 
 
 **Withdraw consent and deletion of data**
 
-As a user, you have the right to withdraw consent for us to collect, process and store User or Functional data.  If this is your intention, you will need to uninstall the Teach me Office 365 app.  Upon install any stored data will automatically be deleted after a maximum period of 12 months.  If you wish that your data be deleted sooner, please contact us.  
+As a user, you have the right to withdraw consent for us to collect, process and store User or Functional data.  If this is your intention, you will need to uninstall the Work Smart app.  Upon install any stored data will automatically be deleted after a maximum period of 12 months.  If you wish that your data be deleted sooner, please contact us.  
 
 **Lodge a complaint**
 
