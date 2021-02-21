@@ -1,13 +1,11 @@
 ---
-title: Work Smart
+title: Getting started with Work Smart
 layout: layouts/page.njk
 permalink: /worksmart-getting-started/
 ---
-# Getting started
-
 Last updated 21 February 2021
 
-Contents
+# Contents
    * Purpose
    * Installation
    * How-to
