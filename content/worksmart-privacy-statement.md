@@ -3,7 +3,7 @@ title: Your privacy and Work Smart
 layout: layouts/page.njk
 permalink: /worksmart-privacy-statement/
 ---
-Last updated 24 January 2021
+Last updated 05 March 2021
 
 ## Contents
    * What data does the Work Smart app collect?
@@ -87,7 +87,7 @@ The app collects certain user information to be able to gain an understanding of
 
 **To allow ModernCollab. Ltd to contact users**
 
-ModernCollab. Ltd will not use User data to contact anyone for marketing purposes whatsoever.  However, we may choose to send users communications by email if there is an important or critical message that users or organisations must become aware of.  This may include a major change to the privacy statement, or terms of use.  In addition, this may also include a major change in the apps functionality that impacts usage in some manner.     
+ModernCollab. Ltd may choose to use User data to send users communications by email or social media.  ModernCollab. Ltd will only ever communicate to users to welcome them once the Work Smart app has been installed; or to notify of important or critical message that users or organisations must become aware of.  This may include a major change to the privacy statement, or terms of use.  In addition, this may also include a major change in the apps functionality that impacts usage in some manner.  ModernCollab. Ltd will never contact users for marketing purposes.  
 
 ModernCollab. Ltd will use the collected Functional data for the following reasons:
 
