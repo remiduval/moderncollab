@@ -12,11 +12,6 @@
       "name": "email",
       "url": "#contact",
       "tooltip": "Get in touch"
-    },
-    {
-      "name": "phone",
-      "url": "tel:+447950908085",
-      "tooltip": "+447950 908085"
     }
   ],
   "footer": [
